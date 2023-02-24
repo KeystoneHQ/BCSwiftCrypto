@@ -7,6 +7,6 @@ framework module CryptoBase {
 }
 
 module CryptoBase.Swift {
-    header "CryptoBase-Swift.h"
-    requires objc
+  header "CryptoBase-Swift.h"
+  requires objc
 }

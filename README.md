@@ -13,6 +13,7 @@
 | Hashed Message Authentication Codes | HMAC-SHA-256 | Blockchain Commons CryptoBase
 | Hashed Message Authentication Codes | HMAC-SHA-512 | Blockchain Commons CryptoBase
 | Password Expansion | PBKDF2-HMAC-SHA-256 | Blockchain Commons CryptoBase
+| Password Expansion | Scrypt | CryptoSwift
 | Key Derivation | HKDF-HMAC-SHA-256 | Apple CryptoKit
 | Symmetric Encryption | IETF-ChaCha20-Poly1305 | CryptoSwift
 | Shamir's Secret Sharing | SSKR | Blockchain Commons SSKR
@@ -21,6 +22,8 @@
 | Signing/Verification | Schnorr | LibSecP256K1
 | Secure Random Number Generation | NA | Apple Security
 | Wallet Import Format (WIF) | NA | LibWally
+| HD Keys | BIP-32 | LibWally
+| Key mnemonics | BIP-39 | LibWally
 
 ## Installation Instructions
 

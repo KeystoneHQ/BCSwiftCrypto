@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "BCCrypto",
     platforms: [
-        .iOS(.v13),
+        .iOS(.v14),
         .macOS(.v11),
     ],
     products: [
@@ -22,7 +22,6 @@ let package = Package(
         .target(
             name: "BCCrypto",
             dependencies: [
-                "WolfBase",
                 "CryptoSwift",
                 "BCWally",
                 "SSKR",

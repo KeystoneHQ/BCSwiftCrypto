@@ -14,6 +14,10 @@ public extension Crypto {
         hkdfHMACSHA256(keyMaterial: keyMaterial, salt: "agreement".utf8Data, keyLen: 32)
     }
     
+    static func deriveSigningPrivateKeyX25519<D: DataProtocol>(keyMaterial: D) -> Data {
+        hkdfHMACSHA256(keyMaterial: keyMaterial, salt: "signing".utf8Data, keyLen: 32)
+    }
+
     static func deriveAgreementSharedKeyX25519<D1, D2>(agreementPrivateKey: D1, agreementPublicKey: D2) -> Data
     where D1: DataProtocol, D2: DataProtocol {
         let agreementPrivateKey = try! Curve25519.KeyAgreement.PrivateKey(rawRepresentation: Data(agreementPrivateKey))

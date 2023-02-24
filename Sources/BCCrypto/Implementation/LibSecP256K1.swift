@@ -1,6 +1,5 @@
 import Foundation
 import secp256k1
-import WolfBase
 
 enum LibSecP256K1 {
 }
