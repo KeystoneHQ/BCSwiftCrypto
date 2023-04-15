@@ -89,7 +89,7 @@ WALLY_CORE_API int wally_bzero(
 WALLY_CORE_API int wally_free_string(
     char *str);
 
-/** Length of entropy required for ``wally_randomize_context`` */
+/** Length of entropy required for `wally_secp_randomize` */
 #define WALLY_SECP_RANDOMIZE_LEN 32
 
 /**
@@ -110,11 +110,28 @@ WALLY_CORE_API int wally_free_string(
  * in an application level mutex.
  *
  * :param bytes: Entropy to use.
- * :param bytes_len: Size of ``bytes`` in bytes. Must be ``WALLY_SECP_RANDOMIZE_LEN``.
+ * :param bytes_len: Size of ``bytes`` in bytes. Must be `WALLY_SECP_RANDOMIZE_LEN`.
  */
 WALLY_CORE_API int wally_secp_randomize(
     const unsigned char *bytes,
     size_t bytes_len);
+
+/**
+ * Verify that a hexadecimal string is valid.
+ *
+ * :param hex: String to verify.
+ */
+WALLY_CORE_API int wally_hex_verify(
+    const char *hex);
+
+/**
+ * Verify that a known-length hexadecimal string is valid.
+ *
+ * See `wally_hex_verify`.
+ */
+WALLY_CORE_API int wally_hex_n_verify(
+    const char *hex,
+    size_t hex_len);
 
 /**
  * Convert bytes to a (lower-case) hexadecimal string.
@@ -143,11 +160,19 @@ WALLY_CORE_API int wally_hex_to_bytes(
     size_t len,
     size_t *written);
 
-/* For ``wally_base58_from_bytes``, indicates that a checksum should
- * be generated. For ``wally_base58_to_bytes``, indicates that the
- * embedded checksum should be validated and stripped off the returned
- * bytes.
+/**
+ * Convert a known-length hexadecimal string to bytes.
+ *
+ * See `wally_hex_to_bytes`.
  */
+WALLY_CORE_API int wally_hex_n_to_bytes(
+    const char *hex,
+    size_t hex_len,
+    unsigned char *bytes_out,
+    size_t len,
+    size_t *written);
+
+/** Indicates that a checksum should be generated, or validated and stripped off */
 #define BASE58_FLAG_CHECKSUM 0x1
 
 /** The number of extra bytes required to hold a base58 checksum */
@@ -158,7 +183,7 @@ WALLY_CORE_API int wally_hex_to_bytes(
  *
  * :param bytes: Binary data to convert.
  * :param bytes_len: The length of ``bytes`` in bytes.
- * :param flags: Pass ``BASE58_FLAG_CHECKSUM`` if ``bytes`` should have a
+ * :param flags: Pass `BASE58_FLAG_CHECKSUM` if ``bytes`` should have a
  *|    checksum calculated and appended before converting to base 58.
  * :param output: Destination for the base 58 encoded string representing ``bytes``.
  *|    The string returned should be freed using `wally_free_string`.
@@ -173,9 +198,9 @@ WALLY_CORE_API int wally_base58_from_bytes(
  * Decode a base 58 encoded string back into into binary data.
  *
  * :param str_in: Base 58 encoded string to decode.
- * :param flags: Pass ``BASE58_FLAG_CHECKSUM`` if ``bytes_out`` should have a
+ * :param flags: Pass `BASE58_FLAG_CHECKSUM` if ``bytes_out`` should have a
  *|    checksum validated and removed before returning. In this case, ``len``
- *|    must contain an extra ``BASE58_CHECKSUM_LEN`` bytes to calculate the
+ *|    must contain an extra `BASE58_CHECKSUM_LEN` bytes to calculate the
  *|    checksum into. The returned length will not include the checksum.
  * :param bytes_out: Destination for converted binary data.
  * :param len: The length of ``bytes_out`` in bytes.
@@ -183,6 +208,19 @@ WALLY_CORE_API int wally_base58_from_bytes(
  */
 WALLY_CORE_API int wally_base58_to_bytes(
     const char *str_in,
+    uint32_t flags,
+    unsigned char *bytes_out,
+    size_t len,
+    size_t *written);
+
+/**
+ * Decode a known-length base 58 encoded string back into into binary data.
+ *
+ * See `wally_base58_to_bytes`.
+ */
+WALLY_CORE_API int wally_base58_n_to_bytes(
+    const char *str_in,
+    size_t str_len,
     uint32_t flags,
     unsigned char *bytes_out,
     size_t len,
@@ -210,6 +248,16 @@ WALLY_CORE_API int wally_base58_get_length(
     size_t *written);
 
 /**
+ * Return the length of a known-length base 58 encoded string once decoded into bytes.
+ *
+ * See `wally_base58_get_length`.
+ */
+WALLY_CORE_API int wally_base58_n_get_length(
+    const char *str_in,
+    size_t str_len,
+    size_t *written);
+
+/**
  * Create a base64 encoded string representing binary data.
  *
  * :param bytes: Binary data to convert.
@@ -230,7 +278,7 @@ WALLY_CORE_API int wally_base64_from_bytes(
  * :param str_in: Base64 encoded string to decode.
  * :param flags: Must be 0.
  * :param bytes_out: Destination for converted binary data.
- * :param len: The length of ``bytes_out`` in bytes. See ``wally_base64_get_maximum_length`.
+ * :param len: The length of ``bytes_out`` in bytes. See `wally_base64_get_maximum_length`.
  * :param written: Destination for the length of the decoded bytes.
  */
 WALLY_CORE_API int wally_base64_to_bytes(
@@ -246,7 +294,7 @@ WALLY_CORE_API int wally_base64_to_bytes(
  * Since base64 strings may contain line breaks and padding, it is not
  * possible to compute their decoded length without fully decoding them.
  * This function cheaply calculates the maximum possible decoded length,
- * which can be used to allocate a buffer for ``wally_base64_to_bytes``.
+ * which can be used to allocate a buffer for `wally_base64_to_bytes`.
  * In most cases the decoded data will be shorter than the value returned.
  *
  * :param str_in: Base64 encoded string to find the length of.

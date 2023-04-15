@@ -1,0 +1,638 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SSKR"
+      },
+      {
+        "kind": "Function",
+        "name": "identify",
+        "printedName": "identify()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:4SSKR8identifySSyF",
+        "mangledName": "$s4SSKR8identifySSyF",
+        "moduleName": "SSKR",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SSKRError",
+        "printedName": "SSKRError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4SSKR9SSKRErrorV7messageSSvp",
+            "mangledName": "$s4SSKR9SSKRErrorV7messageSSvp",
+            "moduleName": "SSKR",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4SSKR9SSKRErrorV7messageSSvg",
+                "mangledName": "$s4SSKR9SSKRErrorV7messageSSvg",
+                "moduleName": "SSKR",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SSKRError",
+                "printedName": "SSKR.SSKRError",
+                "usr": "s:4SSKR9SSKRErrorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4SSKR9SSKRErrorVyACSScfc",
+            "mangledName": "$s4SSKR9SSKRErrorVyACSScfc",
+            "moduleName": "SSKR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4SSKR9SSKRErrorV16errorDescriptionSSSgvp",
+            "mangledName": "$s4SSKR9SSKRErrorV16errorDescriptionSSSgvp",
+            "moduleName": "SSKR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4SSKR9SSKRErrorV16errorDescriptionSSSgvg",
+                "mangledName": "$s4SSKR9SSKRErrorV16errorDescriptionSSSgvg",
+                "moduleName": "SSKR",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:4SSKR9SSKRErrorV",
+        "mangledName": "$s4SSKR9SSKRErrorV",
+        "moduleName": "SSKR",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Wrapper",
+        "printedName": "Wrapper",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4SSKR7WrapperC5valuexvp",
+            "mangledName": "$s4SSKR7WrapperC5valuexvp",
+            "moduleName": "SSKR",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4SSKR7WrapperC5valuexvg",
+                "mangledName": "$s4SSKR7WrapperC5valuexvg",
+                "moduleName": "SSKR",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Wrapper",
+                "printedName": "SSKR.Wrapper<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:4SSKR7WrapperC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4SSKR7WrapperCyACyxGxcfc",
+            "mangledName": "$s4SSKR7WrapperCyACyxGxcfc",
+            "moduleName": "SSKR",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "ref",
+            "printedName": "ref",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4SSKR7WrapperC3refSvvp",
+            "mangledName": "$s4SSKR7WrapperC3refSvvp",
+            "moduleName": "SSKR",
+            "isOpen": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutableRawPointer",
+                    "printedName": "Swift.UnsafeMutableRawPointer",
+                    "usr": "s:Sv"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4SSKR7WrapperC3refSvvg",
+                "mangledName": "$s4SSKR7WrapperC3refSvvg",
+                "moduleName": "SSKR",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4SSKR7WrapperC3getyxSvFZ",
+            "mangledName": "$s4SSKR7WrapperC3getyxSvFZ",
+            "moduleName": "SSKR",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:4SSKR7WrapperC",
+        "mangledName": "$s4SSKR7WrapperC",
+        "moduleName": "SSKR",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "isOpen": true
+      },
+      {
+        "kind": "Function",
+        "name": "SSKRCountShares",
+        "printedName": "SSKRCountShares(groupThreshold:groups:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[SSKR.sskr_group_descriptor_struct]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "sskr_group_descriptor_struct",
+                "printedName": "SSKR.sskr_group_descriptor_struct",
+                "usr": "c:@S@sskr_group_descriptor_struct"
+              }
+            ],
+            "usr": "s:Sa"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:4SSKR15SSKRCountShares14groupThreshold6groupsS2i_SaySo05sskr_D18_descriptor_structVGtKF",
+        "mangledName": "$s4SSKR15SSKRCountShares14groupThreshold6groupsS2i_SaySo05sskr_D18_descriptor_structVGtKF",
+        "moduleName": "SSKR",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SSKRShare",
+        "printedName": "SSKRShare",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4SSKR9SSKRShareV4dataSays5UInt8VGvp",
+            "mangledName": "$s4SSKR9SSKRShareV4dataSays5UInt8VGvp",
+            "moduleName": "SSKR",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.UInt8]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4SSKR9SSKRShareV4dataSays5UInt8VGvg",
+                "mangledName": "$s4SSKR9SSKRShareV4dataSays5UInt8VGvg",
+                "moduleName": "SSKR",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SSKRShare",
+                "printedName": "SSKR.SSKRShare",
+                "usr": "s:4SSKR9SSKRShareV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4SSKR9SSKRShareV4dataACSays5UInt8VG_tcfc",
+            "mangledName": "$s4SSKR9SSKRShareV4dataACSays5UInt8VG_tcfc",
+            "moduleName": "SSKR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:4SSKR9SSKRShareV",
+        "mangledName": "$s4SSKR9SSKRShareV",
+        "moduleName": "SSKR",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "SSKRGenerate",
+        "printedName": "SSKRGenerate(groupThreshold:groups:secret:randomGenerator:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[[SSKR.SSKRShare]]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SSKR.SSKRShare]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SSKRShare",
+                    "printedName": "SSKR.SSKRShare",
+                    "usr": "s:4SSKR9SSKRShareV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "usr": "s:Sa"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[SSKR.sskr_group_descriptor_struct]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "sskr_group_descriptor_struct",
+                "printedName": "SSKR.sskr_group_descriptor_struct",
+                "usr": "c:@S@sskr_group_descriptor_struct"
+              }
+            ],
+            "usr": "s:Sa"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Data",
+            "printedName": "Foundation.Data",
+            "usr": "s:10Foundation4DataV"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(Swift.Int) -> Foundation.Data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:4SSKR12SSKRGenerate14groupThreshold6groups6secret15randomGeneratorSaySayAA9SSKRShareVGGSi_SaySo05sskr_C18_descriptor_structVG10Foundation4DataVAPSictKF",
+        "mangledName": "$s4SSKR12SSKRGenerate14groupThreshold6groups6secret15randomGeneratorSaySayAA9SSKRShareVGGSi_SaySo05sskr_C18_descriptor_structVG10Foundation4DataVAPSictKF",
+        "moduleName": "SSKR",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SSKRCombine",
+        "printedName": "SSKRCombine(shares:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Data",
+            "printedName": "Foundation.Data",
+            "usr": "s:10Foundation4DataV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[SSKR.SSKRShare]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SSKRShare",
+                "printedName": "SSKR.SSKRShare",
+                "usr": "s:4SSKR9SSKRShareV"
+              }
+            ],
+            "usr": "s:Sa"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:4SSKR11SSKRCombine6shares10Foundation4DataVSayAA9SSKRShareVG_tKF",
+        "mangledName": "$s4SSKR11SSKRCombine6shares10Foundation4DataVSayAA9SSKRShareVG_tKF",
+        "moduleName": "SSKR",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

@@ -7,6 +7,6 @@ framework module BCWally {
 }
 
 module BCWally.Swift {
-    header "BCWally-Swift.h"
-    requires objc
+  header "BCWally-Swift.h"
+  requires objc
 }
