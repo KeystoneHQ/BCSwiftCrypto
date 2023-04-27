@@ -2,9 +2,9 @@ import Foundation
 import BCWally
 
 public extension Crypto {
-    static let privateKeyLenECDSA = Int(EC_PRIVATE_KEY_LEN)
-    static let publicKeyLenECDSA = Int(EC_PUBLIC_KEY_LEN)
-    static let publicKeyUncompressedLenECDSA = Int(EC_PUBLIC_KEY_UNCOMPRESSED_LEN)
+    static let privateKeyLenECDSA = 32
+    static let publicKeyLenECDSA = 33
+    static let publicKeyUncompressedLenECDSA = 65
     
     static func newPrivateKeyECDSA() -> Data {
         randomData(count: 32)

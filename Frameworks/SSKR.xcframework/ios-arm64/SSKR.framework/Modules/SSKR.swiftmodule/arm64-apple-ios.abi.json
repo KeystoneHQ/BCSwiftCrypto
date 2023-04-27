@@ -12,6 +12,16 @@
         "moduleName": "SSKR"
       },
       {
+        "kind": "Import",
+        "name": "CSSKR",
+        "printedName": "CSSKR",
+        "declKind": "Import",
+        "moduleName": "SSKR",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
         "kind": "Function",
         "name": "identify",
         "printedName": "identify()",
@@ -198,30 +208,29 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Wrapper",
-        "printedName": "Wrapper",
+        "name": "SSKRGroupDescriptor",
+        "printedName": "SSKRGroupDescriptor",
         "children": [
           {
             "kind": "Var",
-            "name": "value",
-            "printedName": "value",
+            "name": "threshold",
+            "printedName": "threshold",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GenericTypeParam",
-                "printedName": "τ_0_0"
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
               }
             ],
             "declKind": "Var",
-            "usr": "s:4SSKR7WrapperC5valuexvp",
-            "mangledName": "$s4SSKR7WrapperC5valuexvp",
+            "usr": "s:4SSKR19SSKRGroupDescriptorV9thresholds5UInt8Vvp",
+            "mangledName": "$s4SSKR19SSKRGroupDescriptorV9thresholds5UInt8Vvp",
             "moduleName": "SSKR",
             "declAttributes": [
-              "Final",
-              "HasStorage"
+              "HasStorage",
+              "AccessControl"
             ],
-            "fixedbinaryorder": 0,
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -231,74 +240,83 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:4SSKR7WrapperC5valuexvg",
-                "mangledName": "$s4SSKR7WrapperC5valuexvg",
+                "usr": "s:4SSKR19SSKRGroupDescriptorV9thresholds5UInt8Vvg",
+                "mangledName": "$s4SSKR19SSKRGroupDescriptorV9thresholds5UInt8Vvg",
                 "moduleName": "SSKR",
-                "genericSig": "<τ_0_0>",
-                "sugared_genericSig": "<T>",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent",
-                  "Final"
-                ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4SSKR19SSKRGroupDescriptorV9thresholds5UInt8Vvs",
+                "mangledName": "$s4SSKR19SSKRGroupDescriptorV9thresholds5UInt8Vvs",
+                "moduleName": "SSKR",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4SSKR19SSKRGroupDescriptorV9thresholds5UInt8VvM",
+                "mangledName": "$s4SSKR19SSKRGroupDescriptorV9thresholds5UInt8VvM",
+                "moduleName": "SSKR",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Wrapper",
-                "printedName": "SSKR.Wrapper<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ],
-                "usr": "s:4SSKR7WrapperC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "GenericTypeParam",
-                "printedName": "τ_0_0"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:4SSKR7WrapperCyACyxGxcfc",
-            "mangledName": "$s4SSKR7WrapperCyACyxGxcfc",
-            "moduleName": "SSKR",
-            "genericSig": "<τ_0_0>",
-            "sugared_genericSig": "<T>",
-            "init_kind": "Designated"
-          },
-          {
             "kind": "Var",
-            "name": "ref",
-            "printedName": "ref",
+            "name": "count",
+            "printedName": "count",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UnsafeMutableRawPointer",
-                "printedName": "Swift.UnsafeMutableRawPointer",
-                "usr": "s:Sv"
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
               }
             ],
             "declKind": "Var",
-            "usr": "s:4SSKR7WrapperC3refSvvp",
-            "mangledName": "$s4SSKR7WrapperC3refSvvp",
+            "usr": "s:4SSKR19SSKRGroupDescriptorV5counts5UInt8Vvp",
+            "mangledName": "$s4SSKR19SSKRGroupDescriptorV5counts5UInt8Vvp",
             "moduleName": "SSKR",
-            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -307,59 +325,103 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UnsafeMutableRawPointer",
-                    "printedName": "Swift.UnsafeMutableRawPointer",
-                    "usr": "s:Sv"
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:4SSKR7WrapperC3refSvvg",
-                "mangledName": "$s4SSKR7WrapperC3refSvvg",
+                "usr": "s:4SSKR19SSKRGroupDescriptorV5counts5UInt8Vvg",
+                "mangledName": "$s4SSKR19SSKRGroupDescriptorV5counts5UInt8Vvg",
                 "moduleName": "SSKR",
-                "genericSig": "<τ_0_0>",
-                "sugared_genericSig": "<T>",
-                "isOpen": true,
+                "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4SSKR19SSKRGroupDescriptorV5counts5UInt8Vvs",
+                "mangledName": "$s4SSKR19SSKRGroupDescriptorV5counts5UInt8Vvs",
+                "moduleName": "SSKR",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4SSKR19SSKRGroupDescriptorV5counts5UInt8VvM",
+                "mangledName": "$s4SSKR19SSKRGroupDescriptorV5counts5UInt8VvM",
+                "moduleName": "SSKR",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
           {
-            "kind": "Function",
-            "name": "get",
-            "printedName": "get(_:)",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(threshold:count:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GenericTypeParam",
-                "printedName": "τ_0_0"
+                "name": "SSKRGroupDescriptor",
+                "printedName": "SSKR.SSKRGroupDescriptor",
+                "usr": "s:4SSKR19SSKRGroupDescriptorV"
               },
               {
                 "kind": "TypeNominal",
-                "name": "UnsafeMutableRawPointer",
-                "printedName": "Swift.UnsafeMutableRawPointer",
-                "usr": "s:Sv"
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:4SSKR7WrapperC3getyxSvFZ",
-            "mangledName": "$s4SSKR7WrapperC3getyxSvFZ",
+            "declKind": "Constructor",
+            "usr": "s:4SSKR19SSKRGroupDescriptorV9threshold5countACs5UInt8V_AGtcfc",
+            "mangledName": "$s4SSKR19SSKRGroupDescriptorV9threshold5countACs5UInt8V_AGtcfc",
             "moduleName": "SSKR",
-            "genericSig": "<τ_0_0>",
-            "sugared_genericSig": "<T>",
-            "static": true,
             "declAttributes": [
-              "Final"
+              "AccessControl"
             ],
-            "funcSelfKind": "NonMutating"
+            "init_kind": "Designated"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:4SSKR7WrapperC",
-        "mangledName": "$s4SSKR7WrapperC",
+        "declKind": "Struct",
+        "usr": "s:4SSKR19SSKRGroupDescriptorV",
+        "mangledName": "$s4SSKR19SSKRGroupDescriptorV",
         "moduleName": "SSKR",
-        "genericSig": "<τ_0_0>",
-        "sugared_genericSig": "<T>",
-        "isOpen": true
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Function",
@@ -381,21 +443,21 @@
           {
             "kind": "TypeNominal",
             "name": "Array",
-            "printedName": "[SSKR.sskr_group_descriptor_struct]",
+            "printedName": "[SSKR.SSKRGroupDescriptor]",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "sskr_group_descriptor_struct",
-                "printedName": "SSKR.sskr_group_descriptor_struct",
-                "usr": "c:@S@sskr_group_descriptor_struct"
+                "name": "SSKRGroupDescriptor",
+                "printedName": "SSKR.SSKRGroupDescriptor",
+                "usr": "s:4SSKR19SSKRGroupDescriptorV"
               }
             ],
             "usr": "s:Sa"
           }
         ],
         "declKind": "Func",
-        "usr": "s:4SSKR15SSKRCountShares14groupThreshold6groupsS2i_SaySo05sskr_D18_descriptor_structVGtKF",
-        "mangledName": "$s4SSKR15SSKRCountShares14groupThreshold6groupsS2i_SaySo05sskr_D18_descriptor_structVGtKF",
+        "usr": "s:4SSKR15SSKRCountShares14groupThreshold6groupsS2i_SayAA19SSKRGroupDescriptorVGtKF",
+        "mangledName": "$s4SSKR15SSKRCountShares14groupThreshold6groupsS2i_SayAA19SSKRGroupDescriptorVGtKF",
         "moduleName": "SSKR",
         "declAttributes": [
           "AccessControl"
@@ -548,13 +610,13 @@
           {
             "kind": "TypeNominal",
             "name": "Array",
-            "printedName": "[SSKR.sskr_group_descriptor_struct]",
+            "printedName": "[SSKR.SSKRGroupDescriptor]",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "sskr_group_descriptor_struct",
-                "printedName": "SSKR.sskr_group_descriptor_struct",
-                "usr": "c:@S@sskr_group_descriptor_struct"
+                "name": "SSKRGroupDescriptor",
+                "printedName": "SSKR.SSKRGroupDescriptor",
+                "usr": "s:4SSKR19SSKRGroupDescriptorV"
               }
             ],
             "usr": "s:Sa"
@@ -586,8 +648,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "s:4SSKR12SSKRGenerate14groupThreshold6groups6secret15randomGeneratorSaySayAA9SSKRShareVGGSi_SaySo05sskr_C18_descriptor_structVG10Foundation4DataVAPSictKF",
-        "mangledName": "$s4SSKR12SSKRGenerate14groupThreshold6groups6secret15randomGeneratorSaySayAA9SSKRShareVGGSi_SaySo05sskr_C18_descriptor_structVG10Foundation4DataVAPSictKF",
+        "usr": "s:4SSKR12SSKRGenerate14groupThreshold6groups6secret15randomGeneratorSaySayAA9SSKRShareVGGSi_SayAA19SSKRGroupDescriptorVG10Foundation4DataVAPSictKF",
+        "mangledName": "$s4SSKR12SSKRGenerate14groupThreshold6groups6secret15randomGeneratorSaySayAA9SSKRShareVGGSi_SayAA19SSKRGroupDescriptorVG10Foundation4DataVAPSictKF",
         "moduleName": "SSKR",
         "declAttributes": [
           "AccessControl"
@@ -634,5 +696,167 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "StringLiteral",
+      "offset": 92,
+      "length": 6,
+      "value": "\"SSKR\""
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1291,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "StringLiteral",
+      "offset": 1324,
+      "length": 23,
+      "value": "\"SSKR error: \""
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "StringLiteral",
+      "offset": 1346,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1737,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1906,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1952,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2627,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "StringLiteral",
+      "offset": 2769,
+      "length": 31,
+      "value": "\"SSKR encoding error: \""
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "StringLiteral",
+      "offset": 2799,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2863,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2943,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3308,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "StringLiteral",
+      "offset": 3341,
+      "length": 20,
+      "value": "\"No shares provided\""
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3459,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "StringLiteral",
+      "offset": 3492,
+      "length": 39,
+      "value": "\"Shares don't all have the same length\""
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3618,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3737,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3876,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4033,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4216,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "StringLiteral",
+      "offset": 4400,
+      "length": 31,
+      "value": "\"SSKR decoding error: \""
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/SSKR\/SSKR\/SSKR.swift",
+      "kind": "StringLiteral",
+      "offset": 4430,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
 }

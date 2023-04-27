@@ -1,12 +1,4 @@
 framework module SSKR {
-  umbrella header "SSKR.h"
-
-  export *
-  module * { export * }
-
-}
-
-module SSKR.Swift {
   header "SSKR-Swift.h"
   requires objc
 }
