@@ -27,6 +27,304 @@
         "printedName": "WallyPSBT",
         "children": [
           {
+            "kind": "Var",
+            "name": "tx",
+            "printedName": "tx",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WallyTx",
+                "printedName": "BCWally.WallyTx",
+                "usr": "s:7BCWally7WallyTxC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally9WallyPSBTC2txAA0B2TxCvp",
+            "mangledName": "$s7BCWally9WallyPSBTC2txAA0B2TxCvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WallyTx",
+                    "printedName": "BCWally.WallyTx",
+                    "usr": "s:7BCWally7WallyTxC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally9WallyPSBTC2txAA0B2TxCvg",
+                "mangledName": "$s7BCWally9WallyPSBTC2txAA0B2TxCvg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inputsCount",
+            "printedName": "inputsCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally9WallyPSBTC11inputsCountSivp",
+            "mangledName": "$s7BCWally9WallyPSBTC11inputsCountSivp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally9WallyPSBTC11inputsCountSivg",
+                "mangledName": "$s7BCWally9WallyPSBTC11inputsCountSivg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "outputsCount",
+            "printedName": "outputsCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally9WallyPSBTC12outputsCountSivp",
+            "mangledName": "$s7BCWally9WallyPSBTC12outputsCountSivp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally9WallyPSBTC12outputsCountSivg",
+                "mangledName": "$s7BCWally9WallyPSBTC12outputsCountSivg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inputsAllocationCount",
+            "printedName": "inputsAllocationCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally9WallyPSBTC21inputsAllocationCountSivp",
+            "mangledName": "$s7BCWally9WallyPSBTC21inputsAllocationCountSivp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally9WallyPSBTC21inputsAllocationCountSivg",
+                "mangledName": "$s7BCWally9WallyPSBTC21inputsAllocationCountSivg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "outputsAllocationCount",
+            "printedName": "outputsAllocationCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally9WallyPSBTC22outputsAllocationCountSivp",
+            "mangledName": "$s7BCWally9WallyPSBTC22outputsAllocationCountSivp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally9WallyPSBTC22outputsAllocationCountSivg",
+                "mangledName": "$s7BCWally9WallyPSBTC22outputsAllocationCountSivg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "input",
+            "printedName": "input(at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WallyPSBTInput",
+                "printedName": "BCWally.WallyPSBTInput",
+                "usr": "s:7BCWally14WallyPSBTInputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7BCWally9WallyPSBTC5input2atAA0B9PSBTInputCSi_tF",
+            "mangledName": "$s7BCWally9WallyPSBTC5input2atAA0B9PSBTInputCSi_tF",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "output",
+            "printedName": "output(at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WallyPSBTOutput",
+                "printedName": "BCWally.WallyPSBTOutput",
+                "usr": "s:7BCWally15WallyPSBTOutputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7BCWally9WallyPSBTC6output2atAA0B10PSBTOutputCSi_tF",
+            "mangledName": "$s7BCWally9WallyPSBTC6output2atAA0B10PSBTOutputCSi_tF",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clone",
+            "printedName": "clone()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WallyPSBT",
+                "printedName": "BCWally.WallyPSBT",
+                "usr": "s:7BCWally9WallyPSBTC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7BCWally9WallyPSBTC5cloneACyF",
+            "mangledName": "$s7BCWally9WallyPSBTC5cloneACyF",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Function",
             "name": "dispose",
             "printedName": "dispose()",
@@ -62,25 +360,345 @@
         "kind": "TypeDecl",
         "name": "WallyPSBTInput",
         "printedName": "WallyPSBTInput",
-        "declKind": "Struct",
-        "usr": "s:7BCWally14WallyPSBTInputV",
-        "mangledName": "$s7BCWally14WallyPSBTInputV",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "keyPaths",
+            "printedName": "keyPaths",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WallyMap",
+                "printedName": "BCWally.WallyMap",
+                "usr": "s:7BCWally8WallyMapV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally14WallyPSBTInputC8keyPathsAA0B3MapVvp",
+            "mangledName": "$s7BCWally14WallyPSBTInputC8keyPathsAA0B3MapVvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WallyMap",
+                    "printedName": "BCWally.WallyMap",
+                    "usr": "s:7BCWally8WallyMapV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally14WallyPSBTInputC8keyPathsAA0B3MapVvg",
+                "mangledName": "$s7BCWally14WallyPSBTInputC8keyPathsAA0B3MapVvg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "signatures",
+            "printedName": "signatures",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WallyMap",
+                "printedName": "BCWally.WallyMap",
+                "usr": "s:7BCWally8WallyMapV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally14WallyPSBTInputC10signaturesAA0B3MapVvp",
+            "mangledName": "$s7BCWally14WallyPSBTInputC10signaturesAA0B3MapVvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WallyMap",
+                    "printedName": "BCWally.WallyMap",
+                    "usr": "s:7BCWally8WallyMapV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally14WallyPSBTInputC10signaturesAA0B3MapVvg",
+                "mangledName": "$s7BCWally14WallyPSBTInputC10signaturesAA0B3MapVvg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "finalWitness",
+            "printedName": "finalWitness",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BCWally.WallyWitnessStack?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WallyWitnessStack",
+                    "printedName": "BCWally.WallyWitnessStack",
+                    "usr": "s:7BCWally17WallyWitnessStackC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally14WallyPSBTInputC12finalWitnessAA0bE5StackCSgvp",
+            "mangledName": "$s7BCWally14WallyPSBTInputC12finalWitnessAA0bE5StackCSgvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BCWally.WallyWitnessStack?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WallyWitnessStack",
+                        "printedName": "BCWally.WallyWitnessStack",
+                        "usr": "s:7BCWally17WallyWitnessStackC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally14WallyPSBTInputC12finalWitnessAA0bE5StackCSgvg",
+                "mangledName": "$s7BCWally14WallyPSBTInputC12finalWitnessAA0bE5StackCSgvg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "witnessUTXO",
+            "printedName": "witnessUTXO",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BCWally.WallyTxOutput?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WallyTxOutput",
+                    "printedName": "BCWally.WallyTxOutput",
+                    "usr": "s:7BCWally13WallyTxOutputC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally14WallyPSBTInputC11witnessUTXOAA0B8TxOutputCSgvp",
+            "mangledName": "$s7BCWally14WallyPSBTInputC11witnessUTXOAA0B8TxOutputCSgvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BCWally.WallyTxOutput?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WallyTxOutput",
+                        "printedName": "BCWally.WallyTxOutput",
+                        "usr": "s:7BCWally13WallyTxOutputC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally14WallyPSBTInputC11witnessUTXOAA0B8TxOutputCSgvg",
+                "mangledName": "$s7BCWally14WallyPSBTInputC11witnessUTXOAA0B8TxOutputCSgvg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7BCWally14WallyPSBTInputC",
+        "mangledName": "$s7BCWally14WallyPSBTInputC",
         "moduleName": "BCWally",
         "declAttributes": [
+          "Final",
           "AccessControl"
-        ]
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "TypeDecl",
         "name": "WallyPSBTOutput",
         "printedName": "WallyPSBTOutput",
-        "declKind": "Struct",
-        "usr": "s:7BCWally15WallyPSBTOutputV",
-        "mangledName": "$s7BCWally15WallyPSBTOutputV",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "keyPaths",
+            "printedName": "keyPaths",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WallyMap",
+                "printedName": "BCWally.WallyMap",
+                "usr": "s:7BCWally8WallyMapV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally15WallyPSBTOutputC8keyPathsAA0B3MapVvp",
+            "mangledName": "$s7BCWally15WallyPSBTOutputC8keyPathsAA0B3MapVvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WallyMap",
+                    "printedName": "BCWally.WallyMap",
+                    "usr": "s:7BCWally8WallyMapV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally15WallyPSBTOutputC8keyPathsAA0B3MapVvg",
+                "mangledName": "$s7BCWally15WallyPSBTOutputC8keyPathsAA0B3MapVvg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "script",
+            "printedName": "script",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally15WallyPSBTOutputC6script10Foundation4DataVSgvp",
+            "mangledName": "$s7BCWally15WallyPSBTOutputC6script10Foundation4DataVSgvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally15WallyPSBTOutputC6script10Foundation4DataVSgvg",
+                "mangledName": "$s7BCWally15WallyPSBTOutputC6script10Foundation4DataVSgvg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7BCWally15WallyPSBTOutputC",
+        "mangledName": "$s7BCWally15WallyPSBTOutputC",
         "moduleName": "BCWally",
         "declAttributes": [
+          "Final",
           "AccessControl"
-        ]
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -168,6 +786,957 @@
         "children": [
           {
             "kind": "Var",
+            "name": "initialHardenedChild",
+            "printedName": "initialHardenedChild",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally11WallyExtKeyV20initialHardenedChilds6UInt32VvpZ",
+            "mangledName": "$s7BCWally11WallyExtKeyV20initialHardenedChilds6UInt32VvpZ",
+            "moduleName": "BCWally",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV20initialHardenedChilds6UInt32VvgZ",
+                "mangledName": "$s7BCWally11WallyExtKeyV20initialHardenedChilds6UInt32VvgZ",
+                "moduleName": "BCWally",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "versionMainPrivate",
+            "printedName": "versionMainPrivate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally11WallyExtKeyV18versionMainPrivates6UInt32VvpZ",
+            "mangledName": "$s7BCWally11WallyExtKeyV18versionMainPrivates6UInt32VvpZ",
+            "moduleName": "BCWally",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV18versionMainPrivates6UInt32VvgZ",
+                "mangledName": "$s7BCWally11WallyExtKeyV18versionMainPrivates6UInt32VvgZ",
+                "moduleName": "BCWally",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "versionTestPrivate",
+            "printedName": "versionTestPrivate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally11WallyExtKeyV18versionTestPrivates6UInt32VvpZ",
+            "mangledName": "$s7BCWally11WallyExtKeyV18versionTestPrivates6UInt32VvpZ",
+            "moduleName": "BCWally",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV18versionTestPrivates6UInt32VvgZ",
+                "mangledName": "$s7BCWally11WallyExtKeyV18versionTestPrivates6UInt32VvgZ",
+                "moduleName": "BCWally",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "versionMainPublic",
+            "printedName": "versionMainPublic",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally11WallyExtKeyV17versionMainPublics6UInt32VvpZ",
+            "mangledName": "$s7BCWally11WallyExtKeyV17versionMainPublics6UInt32VvpZ",
+            "moduleName": "BCWally",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV17versionMainPublics6UInt32VvgZ",
+                "mangledName": "$s7BCWally11WallyExtKeyV17versionMainPublics6UInt32VvgZ",
+                "moduleName": "BCWally",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "versionTestPublic",
+            "printedName": "versionTestPublic",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally11WallyExtKeyV17versionTestPublics6UInt32VvpZ",
+            "mangledName": "$s7BCWally11WallyExtKeyV17versionTestPublics6UInt32VvpZ",
+            "moduleName": "BCWally",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV17versionTestPublics6UInt32VvgZ",
+                "mangledName": "$s7BCWally11WallyExtKeyV17versionTestPublics6UInt32VvgZ",
+                "moduleName": "BCWally",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "keyFingerprintLen",
+            "printedName": "keyFingerprintLen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally11WallyExtKeyV17keyFingerprintLenSivpZ",
+            "mangledName": "$s7BCWally11WallyExtKeyV17keyFingerprintLenSivpZ",
+            "moduleName": "BCWally",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV17keyFingerprintLenSivgZ",
+                "mangledName": "$s7BCWally11WallyExtKeyV17keyFingerprintLenSivgZ",
+                "moduleName": "BCWally",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WallyExtKey",
+                "printedName": "BCWally.WallyExtKey",
+                "usr": "s:7BCWally11WallyExtKeyV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7BCWally11WallyExtKeyVACycfc",
+            "mangledName": "$s7BCWally11WallyExtKeyVACycfc",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "chainCode",
+            "printedName": "chainCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally11WallyExtKeyV9chainCode10Foundation4DataVvp",
+            "mangledName": "$s7BCWally11WallyExtKeyV9chainCode10Foundation4DataVvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV9chainCode10Foundation4DataVvg",
+                "mangledName": "$s7BCWally11WallyExtKeyV9chainCode10Foundation4DataVvg",
+                "moduleName": "BCWally",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV9chainCode10Foundation4DataVvs",
+                "mangledName": "$s7BCWally11WallyExtKeyV9chainCode10Foundation4DataVvs",
+                "moduleName": "BCWally",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV9chainCode10Foundation4DataVvM",
+                "mangledName": "$s7BCWally11WallyExtKeyV9chainCode10Foundation4DataVvM",
+                "moduleName": "BCWally",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parent160",
+            "printedName": "parent160",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally11WallyExtKeyV9parent16010Foundation4DataVvp",
+            "mangledName": "$s7BCWally11WallyExtKeyV9parent16010Foundation4DataVvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV9parent16010Foundation4DataVvg",
+                "mangledName": "$s7BCWally11WallyExtKeyV9parent16010Foundation4DataVvg",
+                "moduleName": "BCWally",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV9parent16010Foundation4DataVvs",
+                "mangledName": "$s7BCWally11WallyExtKeyV9parent16010Foundation4DataVvs",
+                "moduleName": "BCWally",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV9parent16010Foundation4DataVvM",
+                "mangledName": "$s7BCWally11WallyExtKeyV9parent16010Foundation4DataVvM",
+                "moduleName": "BCWally",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "depth",
+            "printedName": "depth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally11WallyExtKeyV5depths5UInt8Vvp",
+            "mangledName": "$s7BCWally11WallyExtKeyV5depths5UInt8Vvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV5depths5UInt8Vvg",
+                "mangledName": "$s7BCWally11WallyExtKeyV5depths5UInt8Vvg",
+                "moduleName": "BCWally",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV5depths5UInt8Vvs",
+                "mangledName": "$s7BCWally11WallyExtKeyV5depths5UInt8Vvs",
+                "moduleName": "BCWally",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV5depths5UInt8VvM",
+                "mangledName": "$s7BCWally11WallyExtKeyV5depths5UInt8VvM",
+                "moduleName": "BCWally",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "privKey",
+            "printedName": "privKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally11WallyExtKeyV04privD010Foundation4DataVvp",
+            "mangledName": "$s7BCWally11WallyExtKeyV04privD010Foundation4DataVvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV04privD010Foundation4DataVvg",
+                "mangledName": "$s7BCWally11WallyExtKeyV04privD010Foundation4DataVvg",
+                "moduleName": "BCWally",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV04privD010Foundation4DataVvs",
+                "mangledName": "$s7BCWally11WallyExtKeyV04privD010Foundation4DataVvs",
+                "moduleName": "BCWally",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV04privD010Foundation4DataVvM",
+                "mangledName": "$s7BCWally11WallyExtKeyV04privD010Foundation4DataVvM",
+                "moduleName": "BCWally",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "childNum",
+            "printedName": "childNum",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally11WallyExtKeyV8childNums6UInt32Vvp",
+            "mangledName": "$s7BCWally11WallyExtKeyV8childNums6UInt32Vvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV8childNums6UInt32Vvg",
+                "mangledName": "$s7BCWally11WallyExtKeyV8childNums6UInt32Vvg",
+                "moduleName": "BCWally",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV8childNums6UInt32Vvs",
+                "mangledName": "$s7BCWally11WallyExtKeyV8childNums6UInt32Vvs",
+                "moduleName": "BCWally",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV8childNums6UInt32VvM",
+                "mangledName": "$s7BCWally11WallyExtKeyV8childNums6UInt32VvM",
+                "moduleName": "BCWally",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hash160",
+            "printedName": "hash160",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally11WallyExtKeyV7hash16010Foundation4DataVvp",
+            "mangledName": "$s7BCWally11WallyExtKeyV7hash16010Foundation4DataVvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV7hash16010Foundation4DataVvg",
+                "mangledName": "$s7BCWally11WallyExtKeyV7hash16010Foundation4DataVvg",
+                "moduleName": "BCWally",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV7hash16010Foundation4DataVvs",
+                "mangledName": "$s7BCWally11WallyExtKeyV7hash16010Foundation4DataVvs",
+                "moduleName": "BCWally",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV7hash16010Foundation4DataVvM",
+                "mangledName": "$s7BCWally11WallyExtKeyV7hash16010Foundation4DataVvM",
+                "moduleName": "BCWally",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally11WallyExtKeyV7versions6UInt32Vvp",
+            "mangledName": "$s7BCWally11WallyExtKeyV7versions6UInt32Vvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV7versions6UInt32Vvg",
+                "mangledName": "$s7BCWally11WallyExtKeyV7versions6UInt32Vvg",
+                "moduleName": "BCWally",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV7versions6UInt32Vvs",
+                "mangledName": "$s7BCWally11WallyExtKeyV7versions6UInt32Vvs",
+                "moduleName": "BCWally",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV7versions6UInt32VvM",
+                "mangledName": "$s7BCWally11WallyExtKeyV7versions6UInt32VvM",
+                "moduleName": "BCWally",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pubKey",
+            "printedName": "pubKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally11WallyExtKeyV03pubD010Foundation4DataVvp",
+            "mangledName": "$s7BCWally11WallyExtKeyV03pubD010Foundation4DataVvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV03pubD010Foundation4DataVvg",
+                "mangledName": "$s7BCWally11WallyExtKeyV03pubD010Foundation4DataVvg",
+                "moduleName": "BCWally",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV03pubD010Foundation4DataVvs",
+                "mangledName": "$s7BCWally11WallyExtKeyV03pubD010Foundation4DataVvs",
+                "moduleName": "BCWally",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally11WallyExtKeyV03pubD010Foundation4DataVvM",
+                "mangledName": "$s7BCWally11WallyExtKeyV03pubD010Foundation4DataVvM",
+                "moduleName": "BCWally",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "description",
             "printedName": "description",
             "children": [
@@ -224,9 +1793,6 @@
             "usr": "s:7BCWally11WallyExtKeyV9isPrivateSbvp",
             "mangledName": "$s7BCWally11WallyExtKeyV9isPrivateSbvp",
             "moduleName": "BCWally",
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -266,9 +1832,6 @@
             "usr": "s:7BCWally11WallyExtKeyV8isMasterSbvp",
             "mangledName": "$s7BCWally11WallyExtKeyV8isMasterSbvp",
             "moduleName": "BCWally",
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -321,9 +1884,6 @@
             "mangledName": "$s7BCWally11WallyExtKeyV16version_is_valid3ver5flagsSbs6UInt32V_AHtFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -342,9 +1902,6 @@
             "usr": "s:7BCWally11WallyExtKeyV10checkValidyyF",
             "mangledName": "$s7BCWally11WallyExtKeyV10checkValidyyF",
             "moduleName": "BCWally",
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -372,9 +1929,6 @@
             "usr": "s:7BCWally11WallyExtKeyV7networkAA7NetworkOSgvp",
             "mangledName": "$s7BCWally11WallyExtKeyV7networkAA7NetworkOSgvp",
             "moduleName": "BCWally",
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -422,6 +1976,223 @@
             "usr": "s:s23CustomStringConvertibleP",
             "mangledName": "$ss23CustomStringConvertibleP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BCWally"
+      },
+      {
+        "kind": "Import",
+        "name": "CBCWally",
+        "printedName": "CBCWally",
+        "declKind": "Import",
+        "moduleName": "BCWally",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WallyMapItem",
+        "printedName": "WallyMapItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "key",
+            "printedName": "key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally12WallyMapItemV3key10Foundation4DataVvp",
+            "mangledName": "$s7BCWally12WallyMapItemV3key10Foundation4DataVvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally12WallyMapItemV3key10Foundation4DataVvg",
+                "mangledName": "$s7BCWally12WallyMapItemV3key10Foundation4DataVvg",
+                "moduleName": "BCWally",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally12WallyMapItemV5value10Foundation4DataVvp",
+            "mangledName": "$s7BCWally12WallyMapItemV5value10Foundation4DataVvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally12WallyMapItemV5value10Foundation4DataVvg",
+                "mangledName": "$s7BCWally12WallyMapItemV5value10Foundation4DataVvg",
+                "moduleName": "BCWally",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7BCWally12WallyMapItemV",
+        "mangledName": "$s7BCWally12WallyMapItemV",
+        "moduleName": "BCWally",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WallyMap",
+        "printedName": "WallyMap",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "count",
+            "printedName": "count",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally8WallyMapV5countSivp",
+            "mangledName": "$s7BCWally8WallyMapV5countSivp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally8WallyMapV5countSivg",
+                "mangledName": "$s7BCWally8WallyMapV5countSivg",
+                "moduleName": "BCWally",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WallyMapItem",
+                "printedName": "BCWally.WallyMapItem",
+                "usr": "s:7BCWally12WallyMapItemV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:7BCWally8WallyMapVyAA0bC4ItemVSicip",
+            "mangledName": "$s7BCWally8WallyMapVyAA0bC4ItemVSicip",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WallyMapItem",
+                    "printedName": "BCWally.WallyMapItem",
+                    "usr": "s:7BCWally12WallyMapItemV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally8WallyMapVyAA0bC4ItemVSicig",
+                "mangledName": "$s7BCWally8WallyMapVyAA0bC4ItemVSicig",
+                "moduleName": "BCWally",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7BCWally8WallyMapV",
+        "mangledName": "$s7BCWally8WallyMapV",
+        "moduleName": "BCWally",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -549,60 +2320,6 @@
         "funcSelfKind": "NonMutating"
       },
       {
-        "kind": "Function",
-        "name": "deserialize",
-        "printedName": "deserialize(_:_:littleEndian:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Optional",
-            "printedName": "τ_0_0?",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GenericTypeParam",
-                "printedName": "τ_0_0"
-              }
-            ],
-            "usr": "s:Sq"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Metatype",
-            "printedName": "τ_0_0.Type",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GenericTypeParam",
-                "printedName": "τ_0_0"
-              }
-            ]
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "GenericTypeParam",
-            "printedName": "τ_0_1"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Bool",
-            "printedName": "Swift.Bool",
-            "hasDefaultArg": true,
-            "usr": "s:Sb"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:7BCWally11deserialize__12littleEndianxSgxm_q_Sbts17FixedWidthIntegerRz10Foundation12DataProtocolR_r0_lF",
-        "mangledName": "$s7BCWally11deserialize__12littleEndianxSgxm_q_Sbts17FixedWidthIntegerRz10Foundation12DataProtocolR_r0_lF",
-        "moduleName": "BCWally",
-        "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.FixedWidthInteger, τ_0_1 : Foundation.DataProtocol>",
-        "sugared_genericSig": "<T, D where T : Swift.FixedWidthInteger, D : Foundation.DataProtocol>",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -659,6 +2376,432 @@
         "printedName": "WallyTx",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(version:lockTime:inputs:outputs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WallyTx",
+                "printedName": "BCWally.WallyTx",
+                "usr": "s:7BCWally7WallyTxC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BCWally.WallyTxInput]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WallyTxInput",
+                    "printedName": "BCWally.WallyTxInput",
+                    "usr": "s:7BCWally12WallyTxInputC"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BCWally.WallyTxOutput]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WallyTxOutput",
+                    "printedName": "BCWally.WallyTxOutput",
+                    "usr": "s:7BCWally13WallyTxOutputC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7BCWally7WallyTxC7version8lockTime6inputs7outputsACs6UInt32V_AISayAA0bC5InputCGSayAA0bC6OutputCGtcfc",
+            "mangledName": "$s7BCWally7WallyTxC7version8lockTime6inputs7outputsACs6UInt32V_AISayAA0bC5InputCGSayAA0bC6OutputCGtcfc",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "setInputWitness",
+            "printedName": "setInputWitness(index:stack:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WallyWitnessStack",
+                "printedName": "BCWally.WallyWitnessStack",
+                "usr": "s:7BCWally17WallyWitnessStackC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7BCWally7WallyTxC15setInputWitness5index5stackySi_AA0bF5StackCtF",
+            "mangledName": "$s7BCWally7WallyTxC15setInputWitness5index5stackySi_AA0bF5StackCtF",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setInputScript",
+            "printedName": "setInputScript(index:script:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7BCWally7WallyTxC14setInputScript5index6scriptySi_10Foundation4DataVtF",
+            "mangledName": "$s7BCWally7WallyTxC14setInputScript5index6scriptySi_10Foundation4DataVtF",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally7WallyTxC7versions6UInt32Vvp",
+            "mangledName": "$s7BCWally7WallyTxC7versions6UInt32Vvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally7WallyTxC7versions6UInt32Vvg",
+                "mangledName": "$s7BCWally7WallyTxC7versions6UInt32Vvg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inputsCount",
+            "printedName": "inputsCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally7WallyTxC11inputsCountSivp",
+            "mangledName": "$s7BCWally7WallyTxC11inputsCountSivp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally7WallyTxC11inputsCountSivg",
+                "mangledName": "$s7BCWally7WallyTxC11inputsCountSivg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "outputsCount",
+            "printedName": "outputsCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally7WallyTxC12outputsCountSivp",
+            "mangledName": "$s7BCWally7WallyTxC12outputsCountSivp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally7WallyTxC12outputsCountSivg",
+                "mangledName": "$s7BCWally7WallyTxC12outputsCountSivg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inputsAllocationCount",
+            "printedName": "inputsAllocationCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally7WallyTxC21inputsAllocationCountSivp",
+            "mangledName": "$s7BCWally7WallyTxC21inputsAllocationCountSivp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally7WallyTxC21inputsAllocationCountSivg",
+                "mangledName": "$s7BCWally7WallyTxC21inputsAllocationCountSivg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "outputsAllocationCount",
+            "printedName": "outputsAllocationCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally7WallyTxC22outputsAllocationCountSivp",
+            "mangledName": "$s7BCWally7WallyTxC22outputsAllocationCountSivp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally7WallyTxC22outputsAllocationCountSivg",
+                "mangledName": "$s7BCWally7WallyTxC22outputsAllocationCountSivg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "input",
+            "printedName": "input(at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WallyTxInput",
+                "printedName": "BCWally.WallyTxInput",
+                "usr": "s:7BCWally12WallyTxInputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7BCWally7WallyTxC5input2atAA0bC5InputCSi_tF",
+            "mangledName": "$s7BCWally7WallyTxC5input2atAA0bC5InputCSi_tF",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "output",
+            "printedName": "output(at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WallyTxOutput",
+                "printedName": "BCWally.WallyTxOutput",
+                "usr": "s:7BCWally13WallyTxOutputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7BCWally7WallyTxC6output2atAA0bC6OutputCSi_tF",
+            "mangledName": "$s7BCWally7WallyTxC6output2atAA0bC6OutputCSi_tF",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clone",
+            "printedName": "clone()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WallyTx",
+                "printedName": "BCWally.WallyTx",
+                "usr": "s:7BCWally7WallyTxC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7BCWally7WallyTxC5cloneACyF",
+            "mangledName": "$s7BCWally7WallyTxC5cloneACyF",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Function",
             "name": "dispose",
             "printedName": "dispose()",
@@ -696,6 +2839,66 @@
         "printedName": "WallyTxInput",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(prevTx:vout:sequence:amount:witness:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WallyTxInput",
+                "printedName": "BCWally.WallyTxInput",
+                "usr": "s:7BCWally12WallyTxInputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BCWally.WallyWitnessStack?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WallyWitnessStack",
+                    "printedName": "BCWally.WallyWitnessStack",
+                    "usr": "s:7BCWally17WallyWitnessStackC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7BCWally12WallyTxInputC04prevC04vout8sequence6amount7witnessAC10Foundation4DataV_s6UInt32VAMs6UInt64VAA0B12WitnessStackCSgtcfc",
+            "mangledName": "$s7BCWally12WallyTxInputC04prevC04vout8sequence6amount7witnessAC10Foundation4DataV_s6UInt32VAMs6UInt64VAA0B12WitnessStackCSgtcfc",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
             "kind": "Function",
             "name": "dispose",
             "printedName": "dispose()",
@@ -732,6 +2935,128 @@
         "name": "WallyTxOutput",
         "printedName": "WallyTxOutput",
         "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(amount:scriptPubKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WallyTxOutput",
+                "printedName": "BCWally.WallyTxOutput",
+                "usr": "s:7BCWally13WallyTxOutputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7BCWally13WallyTxOutputC6amount12scriptPubKeyACs6UInt64V_10Foundation4DataVtcfc",
+            "mangledName": "$s7BCWally13WallyTxOutputC6amount12scriptPubKeyACs6UInt64V_10Foundation4DataVtcfc",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Var",
+            "name": "satoshi",
+            "printedName": "satoshi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally13WallyTxOutputC7satoshis6UInt64Vvp",
+            "mangledName": "$s7BCWally13WallyTxOutputC7satoshis6UInt64Vvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally13WallyTxOutputC7satoshis6UInt64Vvg",
+                "mangledName": "$s7BCWally13WallyTxOutputC7satoshis6UInt64Vvg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "script",
+            "printedName": "script",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally13WallyTxOutputC6script10Foundation4DataVvp",
+            "mangledName": "$s7BCWally13WallyTxOutputC6script10Foundation4DataVvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally13WallyTxOutputC6script10Foundation4DataVvg",
+                "mangledName": "$s7BCWally13WallyTxOutputC6script10Foundation4DataVvg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
           {
             "kind": "Function",
             "name": "dispose",
@@ -1360,38 +3685,6 @@
             "mangledName": "$s7BCWally5WallyO4psbt4fromAA0B4PSBTCSg10Foundation4DataV_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clone",
-            "printedName": "clone(psbt:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WallyPSBT",
-                "printedName": "BCWally.WallyPSBT",
-                "usr": "s:7BCWally9WallyPSBTC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WallyPSBT",
-                "printedName": "BCWally.WallyPSBT",
-                "usr": "s:7BCWally9WallyPSBTC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7BCWally5WallyO5clone4psbtAA0B4PSBTCAG_tFZ",
-            "mangledName": "$s7BCWally5WallyO5clone4psbtAA0B4PSBTCAG_tFZ",
-            "moduleName": "BCWally",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1418,9 +3711,6 @@
             "mangledName": "$s7BCWally5WallyO11isFinalized4psbtSbAA0B4PSBTC_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1455,9 +3745,6 @@
             "mangledName": "$s7BCWally5WallyO9finalized4psbtAA0B4PSBTCSgAG_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1492,9 +3779,6 @@
             "mangledName": "$s7BCWally5WallyO13finalizedPSBT4psbtAA0B2TxCSgAA0bD0C_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1521,9 +3805,6 @@
             "mangledName": "$s7BCWally5WallyO9getLength4psbtSiAA0B4PSBTC_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1550,9 +3831,6 @@
             "mangledName": "$s7BCWally5WallyO10serialized4psbt10Foundation4DataVAA0B4PSBTC_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1593,9 +3871,6 @@
             "mangledName": "$s7BCWally5WallyO6signed4psbt12ecPrivateKeyAA0B4PSBTCSgAH_10Foundation4DataVtFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1628,9 +3903,6 @@
             "mangledName": "$s7BCWally5WallyO7address4from7networkSS10Foundation4DataV_AA7NetworkOtFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1663,9 +3935,285 @@
             "mangledName": "$s7BCWally5WallyO13segwitAddress4from7networkSS10Foundation4DataV_AA7NetworkOtFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "AddressType",
+            "printedName": "AddressType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "payToPubKeyHash",
+                "printedName": "payToPubKeyHash",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BCWally.Wally.AddressType.Type) -> BCWally.Wally.AddressType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AddressType",
+                        "printedName": "BCWally.Wally.AddressType",
+                        "usr": "s:7BCWally5WallyO11AddressTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BCWally.Wally.AddressType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AddressType",
+                            "printedName": "BCWally.Wally.AddressType",
+                            "usr": "s:7BCWally5WallyO11AddressTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7BCWally5WallyO11AddressTypeO15payToPubKeyHashyA2EmF",
+                "mangledName": "$s7BCWally5WallyO11AddressTypeO15payToPubKeyHashyA2EmF",
+                "moduleName": "BCWally"
+              },
+              {
+                "kind": "Var",
+                "name": "payToScriptHashPayToWitnessPubKeyHash",
+                "printedName": "payToScriptHashPayToWitnessPubKeyHash",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BCWally.Wally.AddressType.Type) -> BCWally.Wally.AddressType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AddressType",
+                        "printedName": "BCWally.Wally.AddressType",
+                        "usr": "s:7BCWally5WallyO11AddressTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BCWally.Wally.AddressType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AddressType",
+                            "printedName": "BCWally.Wally.AddressType",
+                            "usr": "s:7BCWally5WallyO11AddressTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7BCWally5WallyO11AddressTypeO018payToScriptHashPayf13WitnessPubKeyH0yA2EmF",
+                "mangledName": "$s7BCWally5WallyO11AddressTypeO018payToScriptHashPayf13WitnessPubKeyH0yA2EmF",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "payToWitnessPubKeyHash",
+                "printedName": "payToWitnessPubKeyHash",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BCWally.Wally.AddressType.Type) -> BCWally.Wally.AddressType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AddressType",
+                        "printedName": "BCWally.Wally.AddressType",
+                        "usr": "s:7BCWally5WallyO11AddressTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BCWally.Wally.AddressType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AddressType",
+                            "printedName": "BCWally.Wally.AddressType",
+                            "usr": "s:7BCWally5WallyO11AddressTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7BCWally5WallyO11AddressTypeO22payToWitnessPubKeyHashyA2EmF",
+                "mangledName": "$s7BCWally5WallyO11AddressTypeO22payToWitnessPubKeyHashyA2EmF",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AddressType",
+                    "printedName": "BCWally.Wally.AddressType",
+                    "usr": "s:7BCWally5WallyO11AddressTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AddressType",
+                    "printedName": "BCWally.Wally.AddressType",
+                    "usr": "s:7BCWally5WallyO11AddressTypeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BCWally5WallyO11AddressTypeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s7BCWally5WallyO11AddressTypeO2eeoiySbAE_AEtFZ",
+                "moduleName": "BCWally",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7BCWally5WallyO11AddressTypeO9hashValueSivp",
+                "mangledName": "$s7BCWally5WallyO11AddressTypeO9hashValueSivp",
+                "moduleName": "BCWally",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7BCWally5WallyO11AddressTypeO9hashValueSivg",
+                    "mangledName": "$s7BCWally5WallyO11AddressTypeO9hashValueSivg",
+                    "moduleName": "BCWally",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7BCWally5WallyO11AddressTypeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s7BCWally5WallyO11AddressTypeO4hash4intoys6HasherVz_tF",
+                "moduleName": "BCWally",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
             ],
+            "declKind": "Enum",
+            "usr": "s:7BCWally5WallyO11AddressTypeO",
+            "mangledName": "$s7BCWally5WallyO11AddressTypeO",
+            "moduleName": "BCWally",
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hdKeyToAddress",
+            "printedName": "hdKeyToAddress(hdKey:network:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WallyExtKey",
+                "printedName": "BCWally.WallyExtKey",
+                "usr": "s:7BCWally11WallyExtKeyV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Network",
+                "printedName": "BCWally.Network",
+                "usr": "s:7BCWally7NetworkO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AddressType",
+                "printedName": "BCWally.Wally.AddressType",
+                "usr": "s:7BCWally5WallyO11AddressTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7BCWally5WallyO14hdKeyToAddress0cD07network4typeSSAA0b3ExtD0V_AA7NetworkOAC0F4TypeOtFZ",
+            "mangledName": "$s7BCWally5WallyO14hdKeyToAddress0cD07network4typeSSAA0b3ExtD0V_AA7NetworkOAC0F4TypeOtFZ",
+            "moduleName": "BCWally",
+            "static": true,
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1706,9 +4254,6 @@
             "mangledName": "$s7BCWally5WallyO6base584from9isPrivateSSSgAA0B6ExtKeyV_SbtFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1741,9 +4286,6 @@
             "mangledName": "$s7BCWally5WallyO6base584data7isCheckSS10Foundation4DataV_SbtFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1784,9 +4326,6 @@
             "mangledName": "$s7BCWally5WallyO12decodeBase58_7isCheck10Foundation4DataVSgSS_SbtFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1833,9 +4372,6 @@
             "mangledName": "$s7BCWally5WallyO3key4from8childNum9isPrivateAA0B6ExtKeyVSgAI_s6UInt32VSbtFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1862,9 +4398,6 @@
             "mangledName": "$s7BCWally5WallyO15fingerprintData3for10Foundation0D0VAA0B6ExtKeyV_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1891,9 +4424,6 @@
             "mangledName": "$s7BCWally5WallyO11fingerprint3fors6UInt32VAA0B6ExtKeyV_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1920,9 +4450,6 @@
             "mangledName": "$s7BCWally5WallyO13updateHash1602inyAA0B6ExtKeyVz_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1949,9 +4476,6 @@
             "mangledName": "$s7BCWally5WallyO15updatePublicKey2inyAA0b3ExtE0Vz_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1992,9 +4516,6 @@
             "mangledName": "$s7BCWally5WallyO5hdKey9bip39Seed7networkAA0b3ExtD0VSg10Foundation4DataV_AA7NetworkOtFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2029,9 +4550,6 @@
             "mangledName": "$s7BCWally5WallyO5hdKey10fromBase58AA0b3ExtD0VSgSS_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2070,9 +4588,6 @@
             "mangledName": "$s7BCWally5WallyO9encodeWIF3key7network21isPublicKeyCompressedSS10Foundation4DataV_AA7NetworkOSbtFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2099,9 +4614,6 @@
             "mangledName": "$s7BCWally5WallyO7hash160y10Foundation4DataVAGFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2129,9 +4641,6 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2166,117 +4675,6 @@
             "mangledName": "$s7BCWally5WallyO11txFromBytesyAA0B2TxCSg10Foundation4DataVFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "txSetInputScript",
-            "printedName": "txSetInputScript(tx:index:script:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WallyTx",
-                "printedName": "BCWally.WallyTx",
-                "usr": "s:7BCWally7WallyTxC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7BCWally5WallyO16txSetInputScript0C05index6scriptyAA0B2TxC_Si10Foundation4DataVtFZ",
-            "mangledName": "$s7BCWally5WallyO16txSetInputScript0C05index6scriptyAA0B2TxC_Si10Foundation4DataVtFZ",
-            "moduleName": "BCWally",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "txAddInput",
-            "printedName": "txAddInput(tx:input:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WallyTx",
-                "printedName": "BCWally.WallyTx",
-                "usr": "s:7BCWally7WallyTxC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WallyTxInput",
-                "printedName": "BCWally.WallyTxInput",
-                "usr": "s:7BCWally12WallyTxInputC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7BCWally5WallyO10txAddInput0C05inputyAA0B2TxC_AA0bgE0CtFZ",
-            "mangledName": "$s7BCWally5WallyO10txAddInput0C05inputyAA0B2TxC_AA0bgE0CtFZ",
-            "moduleName": "BCWally",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "txAddOutput",
-            "printedName": "txAddOutput(tx:output:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WallyTx",
-                "printedName": "BCWally.WallyTx",
-                "usr": "s:7BCWally7WallyTxC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WallyTxOutput",
-                "printedName": "BCWally.WallyTxOutput",
-                "usr": "s:7BCWally13WallyTxOutputC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7BCWally5WallyO11txAddOutput0C06outputyAA0B2TxC_AA0bgE0CtFZ",
-            "mangledName": "$s7BCWally5WallyO11txAddOutput0C06outputyAA0B2TxC_AA0bgE0CtFZ",
-            "moduleName": "BCWally",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2303,9 +4701,6 @@
             "mangledName": "$s7BCWally5WallyO7txToHex0C0SSAA0B2TxC_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2332,9 +4727,6 @@
             "mangledName": "$s7BCWally5WallyO23txGetTotalOutputSatoshi0C0s6UInt64VAA0B2TxC_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2361,9 +4753,6 @@
             "mangledName": "$s7BCWally5WallyO10txGetVsize0C0SiAA0B2TxC_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2414,11 +4803,408 @@
             "mangledName": "$s7BCWally5WallyO21txGetBTCSignatureHash0C05index6script6amount9isWitness10Foundation4DataVAA0B2TxC_SiALs6UInt64VSbtFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ScriptType",
+            "printedName": "ScriptType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "return",
+                "printedName": "return",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BCWally.Wally.ScriptType.Type) -> BCWally.Wally.ScriptType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScriptType",
+                        "printedName": "BCWally.Wally.ScriptType",
+                        "usr": "s:7BCWally5WallyO10ScriptTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BCWally.Wally.ScriptType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScriptType",
+                            "printedName": "BCWally.Wally.ScriptType",
+                            "usr": "s:7BCWally5WallyO10ScriptTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7BCWally5WallyO10ScriptTypeO6returnyA2EmF",
+                "mangledName": "$s7BCWally5WallyO10ScriptTypeO6returnyA2EmF",
+                "moduleName": "BCWally"
+              },
+              {
+                "kind": "Var",
+                "name": "pkh",
+                "printedName": "pkh",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BCWally.Wally.ScriptType.Type) -> BCWally.Wally.ScriptType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScriptType",
+                        "printedName": "BCWally.Wally.ScriptType",
+                        "usr": "s:7BCWally5WallyO10ScriptTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BCWally.Wally.ScriptType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScriptType",
+                            "printedName": "BCWally.Wally.ScriptType",
+                            "usr": "s:7BCWally5WallyO10ScriptTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7BCWally5WallyO10ScriptTypeO3pkhyA2EmF",
+                "mangledName": "$s7BCWally5WallyO10ScriptTypeO3pkhyA2EmF",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "sh",
+                "printedName": "sh",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BCWally.Wally.ScriptType.Type) -> BCWally.Wally.ScriptType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScriptType",
+                        "printedName": "BCWally.Wally.ScriptType",
+                        "usr": "s:7BCWally5WallyO10ScriptTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BCWally.Wally.ScriptType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScriptType",
+                            "printedName": "BCWally.Wally.ScriptType",
+                            "usr": "s:7BCWally5WallyO10ScriptTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7BCWally5WallyO10ScriptTypeO2shyA2EmF",
+                "mangledName": "$s7BCWally5WallyO10ScriptTypeO2shyA2EmF",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "wpkh",
+                "printedName": "wpkh",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BCWally.Wally.ScriptType.Type) -> BCWally.Wally.ScriptType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScriptType",
+                        "printedName": "BCWally.Wally.ScriptType",
+                        "usr": "s:7BCWally5WallyO10ScriptTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BCWally.Wally.ScriptType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScriptType",
+                            "printedName": "BCWally.Wally.ScriptType",
+                            "usr": "s:7BCWally5WallyO10ScriptTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7BCWally5WallyO10ScriptTypeO4wpkhyA2EmF",
+                "mangledName": "$s7BCWally5WallyO10ScriptTypeO4wpkhyA2EmF",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "wsh",
+                "printedName": "wsh",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BCWally.Wally.ScriptType.Type) -> BCWally.Wally.ScriptType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScriptType",
+                        "printedName": "BCWally.Wally.ScriptType",
+                        "usr": "s:7BCWally5WallyO10ScriptTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BCWally.Wally.ScriptType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScriptType",
+                            "printedName": "BCWally.Wally.ScriptType",
+                            "usr": "s:7BCWally5WallyO10ScriptTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7BCWally5WallyO10ScriptTypeO3wshyA2EmF",
+                "mangledName": "$s7BCWally5WallyO10ScriptTypeO3wshyA2EmF",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "multi",
+                "printedName": "multi",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BCWally.Wally.ScriptType.Type) -> BCWally.Wally.ScriptType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScriptType",
+                        "printedName": "BCWally.Wally.ScriptType",
+                        "usr": "s:7BCWally5WallyO10ScriptTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BCWally.Wally.ScriptType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScriptType",
+                            "printedName": "BCWally.Wally.ScriptType",
+                            "usr": "s:7BCWally5WallyO10ScriptTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7BCWally5WallyO10ScriptTypeO5multiyA2EmF",
+                "mangledName": "$s7BCWally5WallyO10ScriptTypeO5multiyA2EmF",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "tr",
+                "printedName": "tr",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BCWally.Wally.ScriptType.Type) -> BCWally.Wally.ScriptType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScriptType",
+                        "printedName": "BCWally.Wally.ScriptType",
+                        "usr": "s:7BCWally5WallyO10ScriptTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BCWally.Wally.ScriptType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScriptType",
+                            "printedName": "BCWally.Wally.ScriptType",
+                            "usr": "s:7BCWally5WallyO10ScriptTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7BCWally5WallyO10ScriptTypeO2tryA2EmF",
+                "mangledName": "$s7BCWally5WallyO10ScriptTypeO2tryA2EmF",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BCWally.Wally.ScriptType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScriptType",
+                        "printedName": "BCWally.Wally.ScriptType",
+                        "usr": "s:7BCWally5WallyO10ScriptTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:7BCWally5WallyO10ScriptTypeO8rawValueAESgSi_tcfc",
+                "mangledName": "$s7BCWally5WallyO10ScriptTypeO8rawValueAESgSi_tcfc",
+                "moduleName": "BCWally",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7BCWally5WallyO10ScriptTypeO8rawValueSivp",
+                "mangledName": "$s7BCWally5WallyO10ScriptTypeO8rawValueSivp",
+                "moduleName": "BCWally",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7BCWally5WallyO10ScriptTypeO8rawValueSivg",
+                    "mangledName": "$s7BCWally5WallyO10ScriptTypeO8rawValueSivg",
+                    "moduleName": "BCWally",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:7BCWally5WallyO10ScriptTypeO",
+            "mangledName": "$s7BCWally5WallyO10ScriptTypeO",
+            "moduleName": "BCWally",
+            "isFromExtension": true,
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -2427,9 +5213,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Optional",
+                "printedName": "BCWally.Wally.ScriptType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScriptType",
+                    "printedName": "BCWally.Wally.ScriptType",
+                    "usr": "s:7BCWally5WallyO10ScriptTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -2439,13 +5233,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7BCWally5WallyO13getScriptType4fromSi10Foundation4DataV_tFZ",
-            "mangledName": "$s7BCWally5WallyO13getScriptType4fromSi10Foundation4DataV_tFZ",
+            "usr": "s:7BCWally5WallyO13getScriptType4fromAC0dE0OSg10Foundation4DataV_tFZ",
+            "mangledName": "$s7BCWally5WallyO13getScriptType4fromAC0dE0OSg10Foundation4DataV_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2493,9 +5284,6 @@
             "mangledName": "$s7BCWally5WallyO20multisigScriptPubKey7pubKeys9threshold7isBIP6710Foundation4DataVSayAJG_SuSbtFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2522,9 +5310,6 @@
             "mangledName": "$s7BCWally5WallyO14witnessProgram4from10Foundation4DataVAH_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2565,9 +5350,6 @@
             "mangledName": "$s7BCWally5WallyO15addressToScript0C07network10Foundation4DataVSgSS_AA7NetworkOtFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2608,9 +5390,95 @@
             "mangledName": "$s7BCWally5WallyO21segwitAddressToScript7address7network10Foundation4DataVSgSS_AA7NetworkOtFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "bip39SeedLen512",
+            "printedName": "bip39SeedLen512",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
             ],
+            "declKind": "Var",
+            "usr": "s:7BCWally5WallyO15bip39SeedLen512SivpZ",
+            "mangledName": "$s7BCWally5WallyO15bip39SeedLen512SivpZ",
+            "moduleName": "BCWally",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally5WallyO15bip39SeedLen512SivgZ",
+                "mangledName": "$s7BCWally5WallyO15bip39SeedLen512SivgZ",
+                "moduleName": "BCWally",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "bip39MnemonicToSeed",
+            "printedName": "bip39MnemonicToSeed(mnemonic:passphrase:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7BCWally5WallyO19bip39MnemonicToSeed8mnemonic10passphrase10Foundation4DataVSS_SSSgtFZ",
+            "mangledName": "$s7BCWally5WallyO19bip39MnemonicToSeed8mnemonic10passphrase10Foundation4DataVSS_SSSgtFZ",
+            "moduleName": "BCWally",
+            "static": true,
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2637,9 +5505,6 @@
             "mangledName": "$s7BCWally5WallyO11bip39Encode4dataSS10Foundation4DataV_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2674,9 +5539,6 @@
             "mangledName": "$s7BCWally5WallyO11bip39Decode8mnemonic10Foundation4DataVSgSS_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2705,11 +5567,248 @@
             "mangledName": "$s7BCWally5WallyO13bip39AllWordsSaySSGyFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "ecPublicKeyLen",
+            "printedName": "ecPublicKeyLen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally5WallyO14ecPublicKeyLenSivpZ",
+            "mangledName": "$s7BCWally5WallyO14ecPublicKeyLenSivpZ",
+            "moduleName": "BCWally",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally5WallyO14ecPublicKeyLenSivgZ",
+                "mangledName": "$s7BCWally5WallyO14ecPublicKeyLenSivgZ",
+                "moduleName": "BCWally",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ecSignatureDerMaxLowRLen",
+            "printedName": "ecSignatureDerMaxLowRLen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally5WallyO24ecSignatureDerMaxLowRLenSivpZ",
+            "mangledName": "$s7BCWally5WallyO24ecSignatureDerMaxLowRLenSivpZ",
+            "moduleName": "BCWally",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally5WallyO24ecSignatureDerMaxLowRLenSivgZ",
+                "mangledName": "$s7BCWally5WallyO24ecSignatureDerMaxLowRLenSivgZ",
+                "moduleName": "BCWally",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sighashAll",
+            "printedName": "sighashAll",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally5WallyO10sighashAlls5UInt8VvpZ",
+            "mangledName": "$s7BCWally5WallyO10sighashAlls5UInt8VvpZ",
+            "moduleName": "BCWally",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally5WallyO10sighashAlls5UInt8VvgZ",
+                "mangledName": "$s7BCWally5WallyO10sighashAlls5UInt8VvgZ",
+                "moduleName": "BCWally",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ecMessageHashLen",
+            "printedName": "ecMessageHashLen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally5WallyO16ecMessageHashLenSivpZ",
+            "mangledName": "$s7BCWally5WallyO16ecMessageHashLenSivpZ",
+            "moduleName": "BCWally",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally5WallyO16ecMessageHashLenSivgZ",
+                "mangledName": "$s7BCWally5WallyO16ecMessageHashLenSivgZ",
+                "moduleName": "BCWally",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sha256Len",
+            "printedName": "sha256Len",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally5WallyO9sha256LenSivpZ",
+            "mangledName": "$s7BCWally5WallyO9sha256LenSivpZ",
+            "moduleName": "BCWally",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally5WallyO9sha256LenSivgZ",
+                "mangledName": "$s7BCWally5WallyO9sha256LenSivgZ",
+                "moduleName": "BCWally",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -2734,9 +5833,6 @@
             "mangledName": "$s7BCWally5WallyO022ecPublicKeyFromPrivateE04data10Foundation4DataVAH_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2763,9 +5859,6 @@
             "mangledName": "$s7BCWally5WallyO21ecPublicKeyDecompress4data10Foundation4DataVAH_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2792,9 +5885,6 @@
             "mangledName": "$s7BCWally5WallyO19ecPublicKeyCompress4data10Foundation4DataVAH_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2821,9 +5911,6 @@
             "mangledName": "$s7BCWally5WallyO18ecPrivateKeyVerifyySb10Foundation4DataVFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2856,9 +5943,6 @@
             "mangledName": "$s7BCWally5WallyO14ecSigFromBytes7privKey11messageHash10Foundation4DataVAI_AItFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2897,9 +5981,6 @@
             "mangledName": "$s7BCWally5WallyO11ecSigVerify3key11messageHash07compactD0SbAA0B6ExtKeyV_10Foundation4DataVALtFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2926,9 +6007,6 @@
             "mangledName": "$s7BCWally5WallyO14ecSigNormalize07compactD010Foundation4DataVAH_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2955,9 +6033,6 @@
             "mangledName": "$s7BCWally5WallyO10ecSigToDer7sigNorm10Foundation4DataVAH_tFZ",
             "moduleName": "BCWally",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -2986,6 +6061,272 @@
         "declAttributes": [
           "ImplementationOnly"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BCWally"
+      },
+      {
+        "kind": "Import",
+        "name": "CBCWally",
+        "printedName": "CBCWally",
+        "declKind": "Import",
+        "moduleName": "BCWally",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WallyWitnessItem",
+        "printedName": "WallyWitnessItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "witness",
+            "printedName": "witness",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally16WallyWitnessItemC7witness10Foundation4DataVSgvp",
+            "mangledName": "$s7BCWally16WallyWitnessItemC7witness10Foundation4DataVSgvp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally16WallyWitnessItemC7witness10Foundation4DataVSgvg",
+                "mangledName": "$s7BCWally16WallyWitnessItemC7witness10Foundation4DataVSgvg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7BCWally16WallyWitnessItemC",
+        "mangledName": "$s7BCWally16WallyWitnessItemC",
+        "moduleName": "BCWally",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WallyWitnessStack",
+        "printedName": "WallyWitnessStack",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WallyWitnessStack",
+                "printedName": "BCWally.WallyWitnessStack",
+                "usr": "s:7BCWally17WallyWitnessStackC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7BCWally17WallyWitnessStackCyACSay10Foundation4DataVGcfc",
+            "mangledName": "$s7BCWally17WallyWitnessStackCyACSay10Foundation4DataVGcfc",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Var",
+            "name": "count",
+            "printedName": "count",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7BCWally17WallyWitnessStackC5countSivp",
+            "mangledName": "$s7BCWally17WallyWitnessStackC5countSivp",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally17WallyWitnessStackC5countSivg",
+                "mangledName": "$s7BCWally17WallyWitnessStackC5countSivg",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WallyWitnessItem",
+                "printedName": "BCWally.WallyWitnessItem",
+                "usr": "s:7BCWally16WallyWitnessItemC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:7BCWally17WallyWitnessStackCyAA0bC4ItemCSicip",
+            "mangledName": "$s7BCWally17WallyWitnessStackCyAA0bC4ItemCSicip",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WallyWitnessItem",
+                    "printedName": "BCWally.WallyWitnessItem",
+                    "usr": "s:7BCWally16WallyWitnessItemC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BCWally17WallyWitnessStackCyAA0bC4ItemCSicig",
+                "mangledName": "$s7BCWally17WallyWitnessStackCyAA0bC4ItemCSicig",
+                "moduleName": "BCWally",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "dispose",
+            "printedName": "dispose()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7BCWally17WallyWitnessStackC7disposeyyF",
+            "mangledName": "$s7BCWally17WallyWitnessStackC7disposeyyF",
+            "moduleName": "BCWally",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7BCWally17WallyWitnessStackC",
+        "mangledName": "$s7BCWally17WallyWitnessStackC",
+        "moduleName": "BCWally",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -3134,9 +6475,6 @@
             "usr": "s:10Foundation4DataV7BCWallyE7hash160ACvp",
             "mangledName": "$s10Foundation4DataV7BCWallyE7hash160ACvp",
             "moduleName": "BCWally",
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -4007,77 +7345,84 @@
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyPSBT.swift",
       "kind": "IntegerLiteral",
-      "offset": 833,
+      "offset": 1094,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyPSBT.swift",
       "kind": "IntegerLiteral",
-      "offset": 1128,
+      "offset": 2449,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyPSBT.swift",
       "kind": "IntegerLiteral",
-      "offset": 1284,
+      "offset": 2835,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyPSBT.swift",
       "kind": "IntegerLiteral",
-      "offset": 1392,
+      "offset": 3031,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyPSBT.swift",
       "kind": "IntegerLiteral",
-      "offset": 1557,
+      "offset": 3139,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyPSBT.swift",
       "kind": "IntegerLiteral",
-      "offset": 1807,
+      "offset": 3297,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyPSBT.swift",
       "kind": "IntegerLiteral",
-      "offset": 1990,
+      "offset": 3540,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyPSBT.swift",
       "kind": "IntegerLiteral",
-      "offset": 2049,
+      "offset": 3716,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyPSBT.swift",
       "kind": "IntegerLiteral",
-      "offset": 2306,
+      "offset": 3775,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyPSBT.swift",
       "kind": "IntegerLiteral",
-      "offset": 2367,
+      "offset": 4025,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyPSBT.swift",
       "kind": "IntegerLiteral",
-      "offset": 2959,
+      "offset": 4086,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyPSBT.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4671,
       "length": 1,
       "value": "0"
     },
@@ -4091,7 +7436,42 @@
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyAddress.swift",
       "kind": "IntegerLiteral",
-      "offset": 878,
+      "offset": 875,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyAddress.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2033,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyAddress.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2040,
+      "length": 4,
+      "value": "0x05"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyAddress.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2125,
+      "length": 4,
+      "value": "0x6F"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyAddress.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2132,
+      "length": 4,
+      "value": "0xC4"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyAddress.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2450,
       "length": 1,
       "value": "0"
     },
@@ -4105,142 +7485,184 @@
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyBase58.swift",
       "kind": "IntegerLiteral",
-      "offset": 1103,
+      "offset": 1096,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyBase58.swift",
       "kind": "IntegerLiteral",
-      "offset": 1418,
+      "offset": 1404,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyBase58.swift",
       "kind": "IntegerLiteral",
-      "offset": 1459,
+      "offset": 1445,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyBase58.swift",
       "kind": "IntegerLiteral",
-      "offset": 1541,
+      "offset": 1527,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 2118,
+      "offset": 750,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
+      "kind": "IntegerLiteral",
+      "offset": 963,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1284,
+      "length": 2,
+      "value": "33"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1615,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1939,
+      "length": 2,
+      "value": "33"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3941,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
       "kind": "BooleanLiteral",
-      "offset": 2432,
+      "offset": 4255,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 2598,
+      "offset": 4421,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
       "kind": "StringLiteral",
-      "offset": 3509,
+      "offset": 5333,
       "length": 193,
       "value": "\"WallyExtKey(chain_code: \""
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
       "kind": "StringLiteral",
-      "offset": 3547,
+      "offset": 5371,
       "length": 1,
       "value": "\", parent160: \""
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
       "kind": "StringLiteral",
-      "offset": 3572,
+      "offset": 5396,
       "length": 1,
       "value": "\", depth: \""
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
       "kind": "StringLiteral",
-      "offset": 3589,
+      "offset": 5413,
       "length": 1,
       "value": "\", priv_key: \""
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
       "kind": "StringLiteral",
-      "offset": 3612,
+      "offset": 5436,
       "length": 1,
       "value": "\", child_num: \""
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
       "kind": "StringLiteral",
-      "offset": 3637,
+      "offset": 5461,
       "length": 1,
       "value": "\", hash160: \""
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
       "kind": "StringLiteral",
-      "offset": 3658,
+      "offset": 5482,
       "length": 1,
       "value": "\", version: \""
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
       "kind": "StringLiteral",
-      "offset": 3679,
+      "offset": 5503,
       "length": 1,
       "value": "\", pub_key: \""
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
       "kind": "StringLiteral",
-      "offset": 3700,
+      "offset": 5524,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 3860,
+      "offset": 5703,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
       "kind": "BooleanLiteral",
-      "offset": 4046,
+      "offset": 5882,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 4508,
+      "offset": 6337,
       "length": 3,
       "value": "0x2"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyExtKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 4536,
+      "offset": 6365,
       "length": 3,
       "value": "0x3"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 794,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/Utils.swift",
@@ -4280,49 +7702,70 @@
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/Utils.swift",
       "kind": "BooleanLiteral",
-      "offset": 2463,
+      "offset": 2456,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/Utils.swift",
       "kind": "IntegerLiteral",
-      "offset": 2660,
+      "offset": 2653,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyHash.swift",
       "kind": "IntegerLiteral",
-      "offset": 785,
+      "offset": 778,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyTx.swift",
       "kind": "IntegerLiteral",
-      "offset": 2377,
+      "offset": 2020,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyTx.swift",
       "kind": "IntegerLiteral",
-      "offset": 2587,
+      "offset": 2742,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyTx.swift",
       "kind": "IntegerLiteral",
-      "offset": 2925,
+      "offset": 3688,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyTx.swift",
       "kind": "IntegerLiteral",
-      "offset": 3139,
+      "offset": 4724,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyTx.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4927,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyTx.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5258,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyTx.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5472,
       "length": 1,
       "value": "0"
     },
@@ -4385,105 +7828,252 @@
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
       "kind": "IntegerLiteral",
-      "offset": 160,
+      "offset": 150,
+      "length": 3,
+      "value": "0x1"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 204,
+      "length": 3,
+      "value": "0x2"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 267,
+      "length": 3,
+      "value": "0x4"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 349,
+      "length": 3,
+      "value": "0x8"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 420,
+      "length": 4,
+      "value": "0x10"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 500,
+      "length": 4,
+      "value": "0x20"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 555,
+      "length": 4,
+      "value": "0x40"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 150,
+      "length": 3,
+      "value": "0x1"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 204,
+      "length": 3,
+      "value": "0x2"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 267,
+      "length": 3,
+      "value": "0x4"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 349,
+      "length": 3,
+      "value": "0x8"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 420,
+      "length": 4,
+      "value": "0x10"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 500,
+      "length": 4,
+      "value": "0x20"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 555,
+      "length": 4,
+      "value": "0x40"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 150,
+      "length": 3,
+      "value": "0x1"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 204,
+      "length": 3,
+      "value": "0x2"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 267,
+      "length": 3,
+      "value": "0x4"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 349,
+      "length": 3,
+      "value": "0x8"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 420,
+      "length": 4,
+      "value": "0x10"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 500,
+      "length": 4,
+      "value": "0x20"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 555,
+      "length": 4,
+      "value": "0x40"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
+      "kind": "IntegerLiteral",
+      "offset": 693,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
       "kind": "BooleanLiteral",
-      "offset": 447,
+      "offset": 995,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
       "kind": "IntegerLiteral",
-      "offset": 605,
+      "offset": 1153,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
       "kind": "IntegerLiteral",
-      "offset": 651,
+      "offset": 1199,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
       "kind": "IntegerLiteral",
-      "offset": 700,
+      "offset": 1248,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
       "kind": "IntegerLiteral",
-      "offset": 789,
+      "offset": 1337,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
       "kind": "IntegerLiteral",
-      "offset": 814,
+      "offset": 1362,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
       "kind": "IntegerLiteral",
-      "offset": 1222,
+      "offset": 1763,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
       "kind": "IntegerLiteral",
-      "offset": 1232,
+      "offset": 1773,
       "length": 2,
       "value": "34"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
       "kind": "IntegerLiteral",
-      "offset": 1275,
+      "offset": 1816,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
       "kind": "IntegerLiteral",
-      "offset": 1831,
+      "offset": 2365,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
       "kind": "IntegerLiteral",
-      "offset": 1878,
+      "offset": 2412,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
       "kind": "IntegerLiteral",
-      "offset": 2336,
+      "offset": 2863,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
       "kind": "IntegerLiteral",
-      "offset": 2383,
+      "offset": 2910,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyScript.swift",
       "kind": "IntegerLiteral",
-      "offset": 2457,
+      "offset": 2984,
       "length": 1,
       "value": "0"
     },
@@ -4504,63 +8094,91 @@
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyBIP39.swift",
       "kind": "IntegerLiteral",
-      "offset": 631,
+      "offset": 277,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyBIP39.swift",
       "kind": "IntegerLiteral",
-      "offset": 683,
+      "offset": 334,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyBIP39.swift",
       "kind": "IntegerLiteral",
-      "offset": 858,
+      "offset": 1070,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyBIP39.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1122,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyBIP39.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1297,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyBIP39.swift",
       "kind": "Array",
-      "offset": 1050,
+      "offset": 1482,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyBIP39.swift",
       "kind": "IntegerLiteral",
-      "offset": 1164,
+      "offset": 1596,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyWitnessStack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyWitnessStack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1421,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 2412,
+      "offset": 2684,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 3512,
+      "offset": 3770,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 3912,
+      "offset": 4163,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 3989,
+      "offset": 4240,
       "length": 1,
       "value": "0"
     }
