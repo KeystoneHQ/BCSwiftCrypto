@@ -7,10 +7,10 @@ public extension Crypto {
         return LibSecP256K1.serialize(key: x)
     }
 
-    static func signSchnorr<D1, D2, D3>(message: D1, tag: D2 = Data(), privateKeyECDSA key: D3, randomGenerator: RandomGenerator = Self.randomData) -> Data
+    static func signSchnorr<D1, D2, D3>(message: D1, tag: D2 = Data(), privateKeyECDSA key: D3, rng: RandomDataFunc = secureRandomData) -> Data
     where D1: DataProtocol, D2: DataProtocol, D3: DataProtocol {
         let kp = LibSecP256K1.keyPair(from: Data(key))!
-        return LibSecP256K1.schnorrSign(msg: Data(message), tag: Data(tag), keyPair: kp, randomGenerator: randomGenerator)
+        return LibSecP256K1.schnorrSign(msg: Data(message), tag: Data(tag), keyPair: kp, rng: rng)
     }
     
     static func verifySchnorr<D1, D2, D3, D4>(message: D1, tag: D2 = Data(), signature: D3, xOnlyPublicKeyECDSA publicKey: D4) -> Bool

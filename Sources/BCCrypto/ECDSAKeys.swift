@@ -7,7 +7,8 @@ public extension Crypto {
     static let publicKeyUncompressedLenECDSA = 65
     
     static func newPrivateKeyECDSA() -> Data {
-        randomData(count: 32)
+        var rng = SecureRandomNumberGenerator()
+        return rng.randomData(32)
     }
     
     static func publicKeyFromPrivateKeyECDSA<D: DataProtocol>(privateKey: D) -> Data {

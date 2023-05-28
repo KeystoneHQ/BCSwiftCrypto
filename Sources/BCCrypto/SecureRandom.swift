@@ -1,14 +1,6 @@
 import Foundation
 import Security
 
-public extension Crypto {
-    typealias RandomGenerator = (Int) -> Data
-    
-    static func randomData(count: Int) -> Data {
-        SecureRandomNumberGenerator.shared.data(count: count)
-    }
-}
-
 public final class SecureRandomNumberGenerator: RandomNumberGenerator {
     public init() { }
 
@@ -19,10 +11,9 @@ public final class SecureRandomNumberGenerator: RandomNumberGenerator {
         precondition(SecRandomCopyBytes(kSecRandomDefault, MemoryLayout<UInt64>.size, &result) == errSecSuccess)
         return result
     }
-
-    public func data(count: Int) -> Data {
-        var s = self
-        return Data((0..<count).map { _ in UInt8.random(in: 0...255, using: &s) })
-    }
 }
 
+public func secureRandomData(_ count: Int) -> Data {
+    var rng = SecureRandomNumberGenerator()
+    return rng.randomData(count)
+}

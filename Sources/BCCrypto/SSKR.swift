@@ -2,8 +2,8 @@ import Foundation
 import SSKR
 
 extension Crypto {
-    public static func splitSSKR<D: DataProtocol>(groupThreshold: Int, groups: [(Int, Int)], secret: D, testRandomGenerator: @escaping RandomGenerator = Self.randomData) throws -> [[SSKRShare]] {
-        try SSKRGenerate(groupThreshold: groupThreshold, groups: sskrGroups(groups), secret: Data(secret), randomGenerator: testRandomGenerator)
+    public static func splitSSKR<D: DataProtocol>(groupThreshold: Int, groups: [(Int, Int)], secret: D, testRNG: @escaping RandomDataFunc = secureRandomData) throws -> [[SSKRShare]] {
+        try SSKRGenerate(groupThreshold: groupThreshold, groups: sskrGroups(groups), secret: Data(secret), randomGenerator: testRNG)
     }
     
     public static func combineSSKR(shares: [SSKRShare]) throws -> Data {

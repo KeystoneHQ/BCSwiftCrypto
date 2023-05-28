@@ -21,16 +21,16 @@ class SymmetricEncryptionTests: XCTestCase {
     }
     
     func testRandomKeyAndNonce() throws {
-        let key = Crypto.randomData(count: 32)
-        let nonce = Crypto.randomData(count: 12)
+        let key = secureRandomData(32)
+        let nonce = secureRandomData(12)
         let (ciphertext, auth) = try Crypto.encryptAEADChaCha20Poly1305(plaintext: plaintext, key: key, nonce: nonce, aad: aad)
         let decryptedPlaintext = try Crypto.decryptAEADChaCha20Poly1305(ciphertext: ciphertext, key: key, nonce: nonce, aad: aad, auth: auth)
         XCTAssertEqual(plaintext, decryptedPlaintext)
     }
 
     func testEmptyData() throws {
-        let key = Crypto.randomData(count: 32)
-        let nonce = Crypto.randomData(count: 12)
+        let key = secureRandomData(32)
+        let nonce = secureRandomData(12)
         let (ciphertext, auth) = try Crypto.encryptAEADChaCha20Poly1305(plaintext: Data(), key: key, nonce: nonce)
         let decryptedPlaintext = try Crypto.decryptAEADChaCha20Poly1305(ciphertext: ciphertext, key: key, nonce: nonce, auth: auth)
         XCTAssertEqual(Data(), decryptedPlaintext)
