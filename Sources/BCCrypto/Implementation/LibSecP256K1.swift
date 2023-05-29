@@ -1,10 +1,10 @@
 import Foundation
 import secp256k1
 
-enum LibSecP256K1 {
+public enum LibSecP256K1 {
 }
 
-extension LibSecP256K1 {
+public extension LibSecP256K1 {
     static func keyPair(from secretKey: Data) -> secp256k1_keypair? {
         let context = secp256k1_context_create(UInt32(SECP256K1_CONTEXT_SIGN))!
         defer { secp256k1_context_destroy(context) }
@@ -20,7 +20,7 @@ extension LibSecP256K1 {
     }
 }
 
-extension LibSecP256K1 {
+public extension LibSecP256K1 {
     static func ecPublicKey(from serialized: Data) -> secp256k1_pubkey? {
         let context = secp256k1_context_create(UInt32(SECP256K1_CONTEXT_NONE))!
         defer { secp256k1_context_destroy(context) }
@@ -141,7 +141,7 @@ extension LibSecP256K1 {
     }
 }
 
-extension LibSecP256K1 {
+public extension LibSecP256K1 {
     static func xOnlyPublicKey(from serialized: Data) -> secp256k1_xonly_pubkey? {
         let context = secp256k1_context_create(UInt32(SECP256K1_CONTEXT_NONE))!
         defer { secp256k1_context_destroy(context) }
@@ -203,7 +203,10 @@ extension LibSecP256K1 {
         return hash
     }
     
-    static func schnorrSign32(msg32: Data, keyPair: secp256k1_keypair, rng: RandomDataFunc = secureRandomData) -> Data {
+    static func schnorrSign32<T>(msg32: Data, keyPair: secp256k1_keypair, rng: inout T) -> Data
+    where T: RandomNumberGenerator
+    {
+
         let msgCount = 32
         precondition(msg32.count == msgCount)
         
@@ -211,8 +214,8 @@ extension LibSecP256K1 {
         defer { secp256k1_context_destroy(context) }
 
         let randomizeCount = 32
-        let randomize = rng(randomizeCount)
-        
+        let randomize = rng.randomData(randomizeCount)
+
         randomize.withUnsafeByteBuffer {
             _ = secp256k1_context_randomize(context, $0.baseAddress!)
         }
@@ -221,7 +224,7 @@ extension LibSecP256K1 {
         var sig64 = Data(repeating: 0, count: sigCount)
         
         let auxRandCount = 32
-        let auxRand = rng(auxRandCount)
+        let auxRand = rng.randomData(auxRandCount)
 
         sig64.withUnsafeMutableByteBuffer { sig64 in
             msg32.withUnsafeByteBuffer { msg32 in
@@ -236,9 +239,11 @@ extension LibSecP256K1 {
         return sig64
     }
     
-    static func schnorrSign(msg: Data, tag: Data, keyPair: secp256k1_keypair, rng: RandomDataFunc = secureRandomData) -> Data {
+    static func schnorrSign<T>(msg: Data, tag: Data, keyPair: secp256k1_keypair, rng: inout T) -> Data
+    where T: RandomNumberGenerator
+    {
         let digest = taggedSHA256(msg: msg, tag: tag)
-        return schnorrSign32(msg32: digest, keyPair: keyPair, rng: rng)
+        return schnorrSign32(msg32: digest, keyPair: keyPair, rng: &rng)
     }
     
     static func schnorrVerify32(msg32: Data, signature: Data, publicKey: secp256k1_xonly_pubkey) -> Bool {
