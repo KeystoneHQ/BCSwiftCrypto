@@ -75,40 +75,68 @@ extension LibSecP256K1 {
         
         let context = secp256k1_context_create(UInt32(SECP256K1_CONTEXT_SIGN))!
         defer { secp256k1_context_destroy(context) }
-        
-        var sig = secp256k1_ecdsa_signature()
-        
+
+        var signature = secp256k1_ecdsa_signature()
         let result = msg32.withUnsafeByteBuffer { msg32 in
             secKey.withUnsafeByteBuffer { seckey in
-                secp256k1_ecdsa_sign(context, &sig, msg32.baseAddress!, seckey.baseAddress!, nil, nil)
+                secp256k1_ecdsa_sign(context, &signature, msg32.baseAddress!, seckey.baseAddress!, secp256k1_nonce_function_rfc6979, nil)
             }
         }
         precondition(result == 1)
+
+        return serialize(signature: signature)
+    }
+    
+    static func serialize(signature: secp256k1_ecdsa_signature) -> Data {
+        let context = secp256k1_context_create(UInt32(SECP256K1_CONTEXT_NONE))!
+        defer { secp256k1_context_destroy(context) }
         
-        return Data(of: sig)
+        let serialized_count = 64
+        var serialized = Data(repeating: 0, count: serialized_count)
+        
+        serialized.withUnsafeMutableByteBuffer { serialized in
+            withUnsafePointer(to: signature) { signature in
+                _ = secp256k1_ecdsa_signature_serialize_compact(context, serialized.baseAddress!, signature)
+            }
+        }
+        return serialized
+    }
+    
+    static func ecdsaSignature(from serialized: Data) -> secp256k1_ecdsa_signature? {
+        let context = secp256k1_context_create(UInt32(SECP256K1_CONTEXT_NONE))!
+        defer { secp256k1_context_destroy(context) }
+
+        var sig = secp256k1_ecdsa_signature()
+        let result = serialized.withUnsafeByteBuffer { serialized in
+            secp256k1_ecdsa_signature_parse_compact(context, &sig, serialized.baseAddress!)
+        }
+        
+        guard result == 1 else {
+            return nil
+        }
+                
+        return sig
     }
     
     static func ecdsaSign(message: Data, secKey: Data) -> Data {
         ecdsaSign32(msg32: doubleSHA256(message: message), secKey: secKey)
     }
     
-    static func ecdsaVerify32(msg32: Data, signature: Data, publicKey: secp256k1_pubkey) -> Bool {
-        precondition(signature.count == 64)
-        
+    static func ecdsaVerify32(msg32: Data, signature: secp256k1_ecdsa_signature, publicKey: secp256k1_pubkey) -> Bool {
         let context = secp256k1_context_create(UInt32(SECP256K1_CONTEXT_VERIFY))!
         defer { secp256k1_context_destroy(context) }
 
         let result = msg32.withUnsafeByteBuffer { msg32 in
-            signature.withUnsafeBytes { signature in
+            withUnsafePointer(to: signature) { signature in
                 withUnsafePointer(to: publicKey) { publicKey in
-                    secp256k1_ecdsa_verify(context, signature.bindMemory(to: secp256k1_ecdsa_signature.self).baseAddress!, msg32.baseAddress!, publicKey)
+                    secp256k1_ecdsa_verify(context, signature, msg32.baseAddress!, publicKey)
                 }
             }
         }
         return result == 1
     }
     
-    static func ecdsaVerify(message: Data, signature: Data, publicKey: secp256k1_pubkey) -> Bool {
+    static func ecdsaVerify(message: Data, signature: secp256k1_ecdsa_signature, publicKey: secp256k1_pubkey) -> Bool {
         ecdsaVerify32(msg32: doubleSHA256(message: message), signature: signature, publicKey: publicKey)
     }
 }

@@ -8,6 +8,12 @@ public extension Crypto {
     
     static func newPrivateKeyECDSA() -> Data {
         var rng = SecureRandomNumberGenerator()
+        return newPrivateKeyECDSA(using: &rng)
+    }
+    
+    static func newPrivateKeyECDSA<T>(using rng: inout T) -> Data
+        where T: RandomNumberGenerator
+    {
         return rng.randomData(32)
     }
     
