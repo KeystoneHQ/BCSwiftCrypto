@@ -206,7 +206,6 @@ public extension LibSecP256K1 {
     static func schnorrSign32<T>(msg32: Data, keyPair: secp256k1_keypair, rng: inout T) -> Data
     where T: RandomNumberGenerator
     {
-
         let msgCount = 32
         precondition(msg32.count == msgCount)
         

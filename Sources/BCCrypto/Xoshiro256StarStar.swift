@@ -39,8 +39,3 @@ public struct Xoroshiro256StarStar: SeededRandomNumberGenerator {
 public func makeFakeRandomNumberGenerator() -> some RandomNumberGenerator {
     return Xoroshiro256StarStar(state: (17295166580085024720, 422929670265678780, 5577237070365765850, 7953171132032326923))
 }
-
-public func fakeRandomData(_ count: Int) -> Data {
-    var rng = makeFakeRandomNumberGenerator()
-    return rng.randomData(count)
-}

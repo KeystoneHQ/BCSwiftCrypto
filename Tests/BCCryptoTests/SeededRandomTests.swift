@@ -17,7 +17,8 @@ final class SeededRandomTests: XCTestCase {
     
     func testFakeRandomData() {
         let expected = ‡"7eb559bbbf6cce2632cf9f194aeb50943de7e1cbad54dcfab27a42759f5e2fed518684c556472008a67932f7c682125b50cb72e8216f6906358fdaf28d3545532daee0c5bb5023f50cd8e71ec14901ac746c576c481b893be6656b80622b3a564e59b4e2"
-        XCTAssertEqual(fakeRandomData(100), expected)
+        var rng = makeFakeRandomNumberGenerator()
+        XCTAssertEqual(rng.randomData(100), expected)
     }
     
     func testNextWithUpperBound() {
