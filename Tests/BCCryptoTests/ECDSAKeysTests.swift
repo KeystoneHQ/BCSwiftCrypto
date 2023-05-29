@@ -18,5 +18,8 @@ final class ECDSAKeysTests: XCTestCase {
         
         let xOnly = Crypto.xOnlyPublicKeyFromPrivateKeyECDSA(privateKey: privateKey)
         XCTAssertEqual(xOnly, ‡"71b92b6212a79b9215f1d24efb9e6294a1bedc95b6c8cf187cb94771ca02626b")
+        
+        let derivedPrivateKey = Crypto.derivePrivateKeyECDSA(keyMaterial: "password".utf8Data)
+        XCTAssertEqual(derivedPrivateKey, ‡"05cc550daa75058e613e606d9898fedf029e395911c43273a208b7e0e88e271b")
     }
 }

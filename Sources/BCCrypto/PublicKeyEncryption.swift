@@ -2,8 +2,13 @@ import Foundation
 import CryptoKit
 
 public extension Crypto {
+    static func newAgreementPrivateKeyX25519<T: RandomNumberGenerator>(using rng: inout T) -> Data {
+        rng.randomData(32)
+    }
+    
     static func newAgreementPrivateKeyX25519() -> Data {
-        Curve25519.KeyAgreement.PrivateKey().rawRepresentation
+        var rng = SecureRandomNumberGenerator()
+        return newAgreementPrivateKeyX25519(using: &rng)
     }
     
     static func agreementPublicKeyFromPrivateKeyX25519<D: DataProtocol>(agreementPrivateKey: D) -> Data {
