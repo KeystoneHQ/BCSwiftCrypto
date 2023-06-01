@@ -1,7 +1,5 @@
 import Foundation
 
-public extension Crypto {
-    enum Error: Swift.Error {
-        case invalidAuthentication
-    }
+enum CryptoError: Error {
+    case invalidAuthentication
 }

@@ -1,27 +1,25 @@
 import Foundation
 import SSKR
 
-extension Crypto {
-    public static func splitSSKR<D: DataProtocol>(groupThreshold: Int, groups: [(Int, Int)], secret: D, testRNG: @escaping RandomDataFunc = secureRandomData) throws -> [[SSKRShare]] {
-        try SSKRGenerate(groupThreshold: groupThreshold, groups: sskrGroups(groups), secret: Data(secret), randomGenerator: testRNG)
-    }
-    
-    public static func combineSSKR(shares: [SSKRShare]) throws -> Data {
-        try SSKRCombine(shares: shares)
-    }
+public func splitSSKR<D: DataProtocol>(groupThreshold: Int, groups: [(Int, Int)], secret: D, testRNG: @escaping RandomDataFunc = secureRandomData) throws -> [[SSKRShare]] {
+    try SSKRGenerate(groupThreshold: groupThreshold, groups: sskrGroups(groups), secret: Data(secret), randomGenerator: testRNG)
+}
 
-    public static func countSharesSSKR(groupThreshold: Int, groups: [(Int, Int)]) throws -> Int {
-        try SSKRCountShares(groupThreshold: groupThreshold, groups: sskrGroups(groups))
-    }
-    
-    private static func sskrGroups(_ groups: [(Int, Int)]) -> [SSKRGroupDescriptor] {
-        groups.map {
-            let threshold = $0.0
-            precondition((1...16).contains(threshold))
-            let count = $0.1
-            precondition((1...16).contains(count))
-            return SSKRGroupDescriptor(threshold: UInt8(threshold), count: UInt8(count))
-        }
+public func combineSSKR(shares: [SSKRShare]) throws -> Data {
+    try SSKRCombine(shares: shares)
+}
+
+public func countSharesSSKR(groupThreshold: Int, groups: [(Int, Int)]) throws -> Int {
+    try SSKRCountShares(groupThreshold: groupThreshold, groups: sskrGroups(groups))
+}
+
+private func sskrGroups(_ groups: [(Int, Int)]) -> [SSKRGroupDescriptor] {
+    groups.map {
+        let threshold = $0.0
+        precondition((1...16).contains(threshold))
+        let count = $0.1
+        precondition((1...16).contains(count))
+        return SSKRGroupDescriptor(threshold: UInt8(threshold), count: UInt8(count))
     }
 }
 

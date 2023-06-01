@@ -1,5 +1,9 @@
 import Foundation
 
+public func makeFakeRandomNumberGenerator() -> some RandomNumberGenerator {
+    return Xoroshiro256StarStar(state: (17295166580085024720, 422929670265678780, 5577237070365765850, 7953171132032326923))
+}
+
 public struct Xoroshiro256StarStar: SeededRandomNumberGenerator {
     public typealias State = (UInt64, UInt64, UInt64, UInt64)
     public var state: State
@@ -34,8 +38,4 @@ public struct Xoroshiro256StarStar: SeededRandomNumberGenerator {
     
         return result
     }
-}
-
-public func makeFakeRandomNumberGenerator() -> some RandomNumberGenerator {
-    return Xoroshiro256StarStar(state: (17295166580085024720, 422929670265678780, 5577237070365765850, 7953171132032326923))
 }
