@@ -2,30 +2,30 @@ import Foundation
 import BCWally
 
 public extension Crypto {
-    static let privateKeyLenECDSA = 32
-    static let publicKeyLenECDSA = 33
-    static let publicKeyUncompressedLenECDSA = 65
+    static let ecdsaPrivateKeySize = 32
+    static let ecdsaPublicKeySize = 33
+    static let ecdsaPublicKeyUncompressedSize = 65
     
-    static func newPrivateKeyECDSA() -> Data {
+    static func ecdsaNewPrivateKey() -> Data {
         var rng = SecureRandomNumberGenerator()
-        return newPrivateKeyECDSA(using: &rng)
+        return ecdsaNewPrivateKey(using: &rng)
     }
     
-    static func newPrivateKeyECDSA<T>(using rng: inout T) -> Data
+    static func ecdsaNewPrivateKey<T>(using rng: inout T) -> Data
         where T: RandomNumberGenerator
     {
         return rng.randomData(32)
     }
     
-    static func publicKeyFromPrivateKeyECDSA<D: DataProtocol>(privateKey: D) -> Data {
+    static func ecdsaPublicKeyFromPrivateKey<D: DataProtocol>(privateKey: D) -> Data {
         Wally.ecPublicKeyFromPrivateKey(data: Data(privateKey))
     }
     
-    static func decompressPublicKeyECDSA<D: DataProtocol>(compressedPublicKey: D) -> Data {
+    static func ecdsaDecompressPublicKey<D: DataProtocol>(compressedPublicKey: D) -> Data {
         Wally.ecPublicKeyDecompress(data: Data(compressedPublicKey))
     }
     
-    static func compressPublicKeyECDSA<D: DataProtocol>(uncompressedPublicKey: D) -> Data {
+    static func ecdsaCompressPublicKey<D: DataProtocol>(uncompressedPublicKey: D) -> Data {
         let data = Data(uncompressedPublicKey)
         precondition(data.count == 65)
         precondition(data[0] == 0x04)
@@ -40,13 +40,13 @@ public extension Crypto {
         }
     }
     
-    static func derivePrivateKeyECDSA<D: DataProtocol>(keyMaterial: D) -> Data {
+    static func ecdsaDerivePrivateKey<D: DataProtocol>(keyMaterial: D) -> Data {
         hkdfHMACSHA256(keyMaterial: keyMaterial, salt: "signing".utf8Data, keyLen: 32)
     }
     
-    static func xOnlyPublicKeyFromPrivateKeyECDSA<D: DataProtocol>(privateKey: D) -> Data {
+    static func schnorrPublicKeyFromPrivateKey<D: DataProtocol>(privateKey: D) -> Data {
         let kp = LibSecP256K1.keyPair(from: Data(privateKey))!
-        let x = LibSecP256K1.xOnlyPublicKey(from: kp)
+        let x = LibSecP256K1.schnorrPublicKey(from: kp)
         return LibSecP256K1.serialize(key: x)
     }
 }

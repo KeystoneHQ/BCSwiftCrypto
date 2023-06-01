@@ -2,28 +2,28 @@ import Foundation
 import CryptoKit
 
 public extension Crypto {
-    static func newAgreementPrivateKeyX25519<T: RandomNumberGenerator>(using rng: inout T) -> Data {
+    static func x25519NewAgreementPrivateKey<T: RandomNumberGenerator>(using rng: inout T) -> Data {
         rng.randomData(32)
     }
     
-    static func newAgreementPrivateKeyX25519() -> Data {
+    static func x25519NewAgreementPrivateKey() -> Data {
         var rng = SecureRandomNumberGenerator()
-        return newAgreementPrivateKeyX25519(using: &rng)
+        return x25519NewAgreementPrivateKey(using: &rng)
     }
     
-    static func agreementPublicKeyFromPrivateKeyX25519<D: DataProtocol>(agreementPrivateKey: D) -> Data {
+    static func x25519AgreementPublicKeyFromPrivateKey<D: DataProtocol>(agreementPrivateKey: D) -> Data {
         try! Curve25519.KeyAgreement.PrivateKey(rawRepresentation: Data(agreementPrivateKey)).publicKey.rawRepresentation
     }
     
-    static func deriveAgreementPrivateKeyX25519<D: DataProtocol>(keyMaterial: D) -> Data {
+    static func x25519DeriveAgreementPrivateKey<D: DataProtocol>(keyMaterial: D) -> Data {
         hkdfHMACSHA256(keyMaterial: keyMaterial, salt: "agreement".utf8Data, keyLen: 32)
     }
     
-    static func deriveSigningPrivateKeyX25519<D: DataProtocol>(keyMaterial: D) -> Data {
+    static func x25519DeriveSigningPrivateKey<D: DataProtocol>(keyMaterial: D) -> Data {
         hkdfHMACSHA256(keyMaterial: keyMaterial, salt: "signing".utf8Data, keyLen: 32)
     }
 
-    static func deriveAgreementSharedKeyX25519<D1, D2>(agreementPrivateKey: D1, agreementPublicKey: D2) -> Data
+    static func x25519DeriveAgreementSharedKey<D1, D2>(agreementPrivateKey: D1, agreementPublicKey: D2) -> Data
     where D1: DataProtocol, D2: DataProtocol {
         let agreementPrivateKey = try! Curve25519.KeyAgreement.PrivateKey(rawRepresentation: Data(agreementPrivateKey))
         let agreementPublicKey = try! Curve25519.KeyAgreement.PublicKey(rawRepresentation: Data(agreementPublicKey))

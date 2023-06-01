@@ -142,7 +142,7 @@ public extension LibSecP256K1 {
 }
 
 public extension LibSecP256K1 {
-    static func xOnlyPublicKey(from serialized: Data) -> secp256k1_xonly_pubkey? {
+    static func schnorrPublicKey(from serialized: Data) -> secp256k1_xonly_pubkey? {
         let context = secp256k1_context_create(UInt32(SECP256K1_CONTEXT_NONE))!
         defer { secp256k1_context_destroy(context) }
         
@@ -169,7 +169,7 @@ public extension LibSecP256K1 {
         return serialized
     }
     
-    static func xOnlyPublicKey(from keyPair: secp256k1_keypair) -> secp256k1_xonly_pubkey {
+    static func schnorrPublicKey(from keyPair: secp256k1_keypair) -> secp256k1_xonly_pubkey {
         let context = secp256k1_context_create(UInt32(SECP256K1_CONTEXT_NONE))!
         defer { secp256k1_context_destroy(context) }
 
