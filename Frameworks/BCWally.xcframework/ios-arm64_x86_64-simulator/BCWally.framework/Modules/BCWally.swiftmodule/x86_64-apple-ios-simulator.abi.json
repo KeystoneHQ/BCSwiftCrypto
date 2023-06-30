@@ -5865,7 +5865,7 @@
           {
             "kind": "Function",
             "name": "ecPublicKeyCompress",
-            "printedName": "ecPublicKeyCompress(data:)",
+            "printedName": "ecPublicKeyCompress(uncompressedKey:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5881,10 +5881,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7BCWally5WallyO19ecPublicKeyCompress4data10Foundation4DataVAH_tFZ",
-            "mangledName": "$s7BCWally5WallyO19ecPublicKeyCompress4data10Foundation4DataVAH_tFZ",
+            "usr": "s:7BCWally5WallyO19ecPublicKeyCompress012uncompressedE010Foundation4DataVAH_tF",
+            "mangledName": "$s7BCWally5WallyO19ecPublicKeyCompress012uncompressedE010Foundation4DataVAH_tF",
             "moduleName": "BCWally",
-            "static": true,
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -8157,28 +8156,105 @@
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 2684,
+      "offset": 1723,
+      "length": 2,
+      "value": "65"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1764,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 3770,
+      "offset": 1770,
+      "length": 4,
+      "value": "0x04"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1809,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1813,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1849,
+      "length": 2,
+      "value": "33"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1854,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1880,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1885,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
+      "kind": "Array",
+      "offset": 1913,
+      "length": 6,
+      "value": "[0x02]"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
+      "kind": "Array",
+      "offset": 1966,
+      "length": 6,
+      "value": "[0x03]"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2467,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 4163,
+      "offset": 3553,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 4240,
+      "offset": 3946,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wolf\/Dropbox\/DevProjects\/BlockchainCommons\/BCLibsSwift\/BCWally\/BCWally\/WallyECKey.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4023,
       "length": 1,
       "value": "0"
     }
