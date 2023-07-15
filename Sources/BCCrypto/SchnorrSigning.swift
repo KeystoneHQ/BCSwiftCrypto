@@ -1,4 +1,5 @@
 import Foundation
+import secp256k1Swift
 
 public func schnorrSign<D1, D2, D3, T>(ecdsaPrivateKey: D1, message: D2, tag: D3, rng: inout T) -> Data
 where D1: DataProtocol, D2: DataProtocol, D3: DataProtocol, T: RandomNumberGenerator

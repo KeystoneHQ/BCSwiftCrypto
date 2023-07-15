@@ -16,8 +16,8 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/WolfMcNally/WolfBase", from: "5.0.0"),
-        .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.4.1"),
-        .package(url: "https://github.com/BlockchainCommons/secp256k1-zkp.swift.git", from: "0.5.0"),
+        .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.7.1"),
+        .package(url: "https://github.com/KeystoneHQ/secp256k1.swift.git", branch: "main"),
     ],
     targets: [
         .target(
@@ -27,7 +27,7 @@ let package = Package(
                 "BCWally",
                 "SSKR",
                 "CryptoBase",
-                .product(name: "secp256k1", package: "secp256k1-zkp.swift"),
+                .product(name: "secp256k1SwiftLib", package: "secp256k1.swift"),
             ]),
         .binaryTarget(
             name: "BCWally",

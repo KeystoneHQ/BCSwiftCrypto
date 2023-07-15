@@ -5,17 +5,26 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/krzyzanowskim/CryptoSwift.git",
       "state" : {
-        "revision" : "eee9ad754926c40a0f7e73f152357d37b119b7fa",
-        "version" : "1.7.1"
+        "revision" : "32f641cf24fc7abc1c591a2025e9f2f572648b0f",
+        "version" : "1.7.2"
       }
     },
     {
-      "identity" : "secp256k1-zkp.swift",
+      "identity" : "secp256k1",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/BlockchainCommons/secp256k1-zkp.swift.git",
+      "location" : "https://github.com/portto/secp256k1.git",
       "state" : {
-        "revision" : "e8f21c7d8d4dd7ac778e51427b908194f3fd9d82",
-        "version" : "0.5.1"
+        "revision" : "6864a2560066cedede330c4b344689432a7300f7",
+        "version" : "0.0.5"
+      }
+    },
+    {
+      "identity" : "secp256k1.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/KeystoneHQ/secp256k1.swift.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e808e85d1ad25ea72725643badf1ccdc0b04f5fd"
       }
     },
     {
@@ -41,8 +50,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/WolfMcNally/WolfBase",
       "state" : {
-        "revision" : "21feeff132b57bbdf0eb57fae73a5e36d485b32d",
-        "version" : "5.3.0"
+        "revision" : "d7219c703316956c42a7f47f926a442d082f043f",
+        "version" : "5.3.1"
       }
     }
   ],

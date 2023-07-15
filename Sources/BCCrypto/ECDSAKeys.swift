@@ -1,5 +1,6 @@
 import Foundation
 import BCWally
+import secp256k1Swift
 
 public let ecdsaPrivateKeySize = 32
 public let ecdsaPublicKeySize = 33
