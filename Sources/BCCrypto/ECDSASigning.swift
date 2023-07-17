@@ -1,5 +1,5 @@
 import Foundation
-import secp256k1Swift
+import secp256k1SwiftLib
 
 public func ecdsaSign<D1, D2>(privateKeyECDSA key: D1, message: D2) -> Data
 where D1: DataProtocol, D2: DataProtocol
