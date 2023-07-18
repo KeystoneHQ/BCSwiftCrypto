@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = "BCSwiftCrypto"
+  spec.name         = "BCCrypto"
   spec.version      = "0.8.1"
   spec.summary      = "A Swift package that exposes a uniform API for the cryptographic primitives used in higher-level Blockchain Commons projects."
   spec.homepage     = "https://github.com/KeystoneHQ/BCSwiftCrypto"
