@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version      = "0.1.1"
   spec.summary      = "Thin Swift wrapper around LibWally."
   spec.homepage     = "https://github.com/KeystoneHQ/BCSwiftCrypto"
-  spec.license      = { :type => "BSD", :file => "LICENSE" }
+  spec.license      = { :type => "BSD", :text => "Copyright © 2019 Blockchain Commons, LLC" }
   spec.author       = "Keystone"
   spec.social_media_url   = "https://twitter.com/KeystoneWallet"
   spec.swift_version = "5.6"
