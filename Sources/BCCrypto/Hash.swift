@@ -1,6 +1,7 @@
 import Foundation
 import CryptoBase
 import CryptoKit
+import CryptoSwift
 
 /// Computes the SHA-256 digest of the input buffer.
 public func sha256<D: DataProtocol>(_ data: D) -> Data {
@@ -34,18 +35,12 @@ where D1: DataProtocol, D2: DataProtocol
 }
 
 /// Computes the HKDF-HMAC-SHA-256 for the given key material.
-@available(iOS 14.0, *)
 @available(macOS 11.0, *)
 public func hkdfHMACSHA256<D1, D2>(keyMaterial: D1, salt: D2, keyLen: Int) -> Data
 where D1: DataProtocol, D2: DataProtocol
 {
-    HKDF<SHA256>.deriveKey(
-        inputKeyMaterial: .init(data: Data(keyMaterial)),
-        salt: Data(salt),
-        outputByteCount: keyLen
-    ).withUnsafeBytes {
-        Data($0)
-    }
+    let key = try? CryptoSwift.HKDF(password: Array(keyMaterial), salt: Array(salt), keyLength: keyLen).calculate()
+    return Data(key ?? [])
 }
 
 /// Computes the CRC-32 checksum of the input buffer.

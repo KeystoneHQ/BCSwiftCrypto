@@ -1,6 +1,7 @@
 import XCTest
 import BCCrypto
 import WolfBase
+import secp256k1SwiftLib
 
 final class SchnorrSigningTests: XCTestCase {
     func testTaggedSHA256() {
